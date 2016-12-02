@@ -1,9 +1,9 @@
-package com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest2.test;
+package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.test;
 
-import com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest2.extthread.ThreadA;
-import com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest2.extthread.ThreadB;
-import com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest2.extthread.ThreadC;
-import com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest2.service.Service;
+import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.extthread.ThreadA;
+import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.extthread.ThreadB;
+import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.extthread.ThreadC;
+import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.service.Service;
 
 public class Run {
 

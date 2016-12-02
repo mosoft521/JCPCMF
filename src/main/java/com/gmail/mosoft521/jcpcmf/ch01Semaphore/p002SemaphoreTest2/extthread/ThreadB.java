@@ -1,6 +1,6 @@
-package com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest1.extthread;
+package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.extthread;
 
-import com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest1.service.Service;
+import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.service.Service;
 
 public class ThreadB extends Thread {
 

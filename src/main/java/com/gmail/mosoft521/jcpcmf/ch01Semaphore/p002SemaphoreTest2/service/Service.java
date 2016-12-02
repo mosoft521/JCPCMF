@@ -1,10 +1,10 @@
-package com.gmail.mosoft521.jcpcmf.ch01Semaphore.ch01SemaphoreTest1.service;
+package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.service;
 
 import java.util.concurrent.Semaphore;
 
 public class Service {
 
-	private Semaphore semaphore = new Semaphore(1);
+	private Semaphore semaphore = new Semaphore(2);
 
 	public void testMethod() {
 		try {
