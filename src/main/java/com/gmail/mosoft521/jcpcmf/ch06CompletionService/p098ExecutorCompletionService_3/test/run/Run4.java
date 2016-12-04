@@ -11,18 +11,14 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class Run4 {
-
     public static void main(String[] args) {
-
         try {
             MyCallableA callableA = new MyCallableA();
             MyCallableB callableB = new MyCallableB();
-
             Executor executor = Executors.newCachedThreadPool();
             CompletionService csRef = new ExecutorCompletionService(executor);
             csRef.submit(callableA);
             csRef.submit(callableB);
-
             System.out.println("zzzzzzzzzzzz" + " "
                     + csRef.poll(4, TimeUnit.SECONDS) + " "
                     + System.currentTimeMillis());
@@ -31,7 +27,6 @@ public class Run4 {
                     + csRef.poll(7, TimeUnit.SECONDS).get() + " "
                     + System.currentTimeMillis());
             System.out.println("X");
-
             System.out.println("main end!");
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -48,6 +43,5 @@ zzzzzzzzzzzz returnA 1480818615240
 X
 main end!
 MyCallableB 1480818620243
-
 Process finished with exit code 1
  */

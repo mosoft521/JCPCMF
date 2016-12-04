@@ -4,7 +4,6 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 
 public class offerFirst_3 {
-
     public static void main(String[] args) {
         try {
             LinkedBlockingDeque deque = new LinkedBlockingDeque(3);
@@ -26,7 +25,6 @@ public class offerFirst_3 {
             e.printStackTrace();
         }
     }
-
 }
 /*
 1 1480838107509
@@ -39,6 +37,5 @@ true
 false
 5 1480838111512
 3
-
 Process finished with exit code 0
  */

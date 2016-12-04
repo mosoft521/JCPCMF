@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p153ConcurrentLinkedQueue.test1;
 import com.gmail.mosoft521.jcpcmf.ch10.p153ConcurrentLinkedQueue.myservice.MyService1;
 
 public class ThreadB extends Thread {
-
     private MyService1 service;
 
     public ThreadB(MyService1 service) {
@@ -17,5 +16,4 @@ public class ThreadB extends Thread {
             service.queue.add("threadB" + (i + 1));
         }
     }
-
 }

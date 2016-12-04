@@ -21,7 +21,6 @@ public class Run1 {
                 }
             }
         };
-
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 2,
                 Integer.MAX_VALUE, TimeUnit.SECONDS,
                 new LinkedBlockingDeque<Runnable>());
@@ -30,13 +29,11 @@ public class Run1 {
         executor.shutdown();
         System.out.println("B=" + executor.isShutdown());
     }
-
 }
 /*
 A=false
 B=true
 打印了！begin pool-1-thread-1
 打印了！      end pool-1-thread-1
-
 Process finished with exit code 0
  */

@@ -11,7 +11,6 @@ public class MyRunnable1 implements Runnable {
                 Math.random();
                 Math.random();
                 Math.random();
-
                 if (Thread.currentThread().isInterrupted() == true) {
                     System.out.println("任务没有完成，就中断了！");
                     throw new InterruptedException();

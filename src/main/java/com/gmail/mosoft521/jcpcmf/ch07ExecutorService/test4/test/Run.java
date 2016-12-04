@@ -11,14 +11,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             List<Callable<String>> list = new ArrayList<>();
             list.add(new MyCallableA());
             list.add(new MyCallableB());
-
             ExecutorService service = Executors.newCachedThreadPool();
             String getString = service.invokeAny(list);
             System.out.println("zzzz=" + getString);
@@ -38,6 +35,5 @@ MyCallableA 在运行中=123455
 MyCallableA 在运行中=123456
 MyCallableA pool-1-thread-1   end 1480822246430
 zzzz=returnA
-
 Process finished with exit code 1
  */

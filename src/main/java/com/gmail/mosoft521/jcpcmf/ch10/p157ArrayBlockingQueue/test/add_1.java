@@ -16,6 +16,5 @@ public class add_1 {
 true
 true
 2
-
 Process finished with exit code 0
  */

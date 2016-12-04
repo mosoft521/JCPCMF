@@ -9,17 +9,14 @@ import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Executors;
 
 public class Run1 {
-
     public static void main(String[] args) {
         try {
             MyCallableA callableA = new MyCallableA();
             MyCallableB callableB = new MyCallableB();
-
             Executor executor = Executors.newSingleThreadExecutor();
             CompletionService csRef = new ExecutorCompletionService(executor);
             csRef.submit(callableA);
             csRef.submit(callableB);
-
             for (int i = 0; i < 2; i++) {
                 System.out.println("zzzzzzzzzzzz" + " " + csRef.take());
             }
@@ -36,6 +33,5 @@ MyCallableB begin 1480818753197
 zzzzzzzzzzzz java.util.concurrent.FutureTask@14ae5a5
 zzzzzzzzzzzz java.util.concurrent.FutureTask@7f31245a
 main end!
-
 Process finished with exit code 1
  */

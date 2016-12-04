@@ -6,9 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Run {
-
     public static void main(String[] args) {
-
         ExecutorService executorService = Executors.newFixedThreadPool(3);
         for (int i = 0; i < 3; i++) {
             executorService.execute(new MyRunnable(("" + (i + 1))));
@@ -16,7 +14,6 @@ public class Run {
         for (int i = 0; i < 3; i++) {
             executorService.execute(new MyRunnable(("" + (i + 1))));
         }
-
     }
 }
 /*
@@ -32,6 +29,5 @@ pool-1-thread-1 username=3 begin 1480768492662
 pool-1-thread-3 username=1   end 1480768494662
 pool-1-thread-2 username=2   end 1480768494662
 pool-1-thread-1 username=3   end 1480768494662
-
 Process finished with exit code 1
  */

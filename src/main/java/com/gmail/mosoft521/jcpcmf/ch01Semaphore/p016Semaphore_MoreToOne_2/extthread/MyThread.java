@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p016Semaphore_MoreToOne_2.extth
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p016Semaphore_MoreToOne_2.service.Service;
 
 public class MyThread extends Thread {
-
     private Service service;
 
     public MyThread(Service service) {
@@ -15,5 +14,4 @@ public class MyThread extends Thread {
     public void run() {
         service.sayHello();
     }
-
 }

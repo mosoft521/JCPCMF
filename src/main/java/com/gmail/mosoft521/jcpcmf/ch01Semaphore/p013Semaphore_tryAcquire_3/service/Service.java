@@ -4,7 +4,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class Service {
-
     private Semaphore semaphore = new Semaphore(1);
 
     public void testMethod() {

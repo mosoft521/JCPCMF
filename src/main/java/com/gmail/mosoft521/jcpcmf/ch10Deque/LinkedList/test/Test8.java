@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10Deque.LinkedList.test;
 import java.util.LinkedList;
 
 public class Test8 {
-
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.add("1");
@@ -11,9 +10,7 @@ public class Test8 {
         list.add("3");
         list.add("2");
         list.add("1");
-
         list.removeFirstOccurrence("2");
-
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
@@ -24,6 +21,5 @@ public class Test8 {
 3
 2
 1
-
 Process finished with exit code 0
  */

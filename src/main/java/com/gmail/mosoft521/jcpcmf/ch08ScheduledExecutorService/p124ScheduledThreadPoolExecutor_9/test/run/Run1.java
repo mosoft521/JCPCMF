@@ -30,6 +30,5 @@ public class Run1 {
 true
 队列中的：java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@677327b6
 main end!
-
 Process finished with exit code 1
  */

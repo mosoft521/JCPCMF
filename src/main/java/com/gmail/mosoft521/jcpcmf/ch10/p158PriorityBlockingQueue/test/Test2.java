@@ -15,7 +15,6 @@ public class Test2 {
             e.printStackTrace();
         }
     }
-
 }
 /*
 begin

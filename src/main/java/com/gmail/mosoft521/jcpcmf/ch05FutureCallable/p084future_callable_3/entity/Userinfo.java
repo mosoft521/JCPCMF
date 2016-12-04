@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch05FutureCallable.p084future_callable_3.entity;
 
 public class Userinfo {
-
     private String username;
     private String password;
 
@@ -30,5 +29,4 @@ public class Userinfo {
     public void setPassword(String password) {
         this.password = password;
     }
-
 }

@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p147method16.mytask;
 import java.util.concurrent.RecursiveTask;
 
 public class MyRecursiveTask2 extends RecursiveTask<Integer> {
-
     private int beginPosition;
     private int endPosition;
 
@@ -21,15 +20,11 @@ public class MyRecursiveTask2 extends RecursiveTask<Integer> {
                     middleNum);
             MyRecursiveTask2 rightTask = new MyRecursiveTask2(middleNum + 1,
                     endPosition);
-
             leftTask.fork();
             rightTask.fork();
-
             Integer leftValue = leftTask.join();
             Integer rightValue = rightTask.join();
-
             return leftValue + rightValue;
-
         } else {
             int count = 0;
             for (int i = beginPosition; i <= endPosition; i++) {

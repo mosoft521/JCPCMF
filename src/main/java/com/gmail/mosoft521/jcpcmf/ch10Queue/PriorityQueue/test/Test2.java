@@ -6,7 +6,6 @@ import com.gmail.mosoft521.jcpcmf.ch10Queue.PriorityQueue.myComparator.MyUserinf
 import java.util.PriorityQueue;
 
 public class Test2 {
-
     public static void main(String[] args) {
         PriorityQueue<Userinfo> pqRef = new PriorityQueue<Userinfo>(10,
                 new MyUserinfoComparator());
@@ -15,7 +14,6 @@ public class Test2 {
         pqRef.add(new Userinfo(98, "username98"));
         pqRef.add(new Userinfo(2, "username2"));
         pqRef.add(new Userinfo(1, "username1"));
-
         System.out.println(pqRef.poll().getId());
         System.out.println(pqRef.poll().getId());
         System.out.println(pqRef.poll().getId());
@@ -23,7 +21,6 @@ public class Test2 {
         System.out.println(pqRef.poll().getId());
         System.out.println(pqRef.size());
     }
-
 }
 /*
 1
@@ -32,6 +29,5 @@ public class Test2 {
 99
 100
 0
-
 Process finished with exit code 0
  */

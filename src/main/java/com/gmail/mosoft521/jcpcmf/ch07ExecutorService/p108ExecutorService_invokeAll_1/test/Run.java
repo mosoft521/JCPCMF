@@ -12,17 +12,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             CallableA callableA = new CallableA();
             CallableB callableB = new CallableB();
-
             List<Callable<String>> list = new ArrayList<Callable<String>>();
             list.add(callableA);
             list.add(callableB);
-
             ExecutorService service = Executors.newCachedThreadPool();
             System.out.println("invokeAll begin " + System.currentTimeMillis());
             List<Future<String>> listFuture = service.invokeAll(list);
@@ -49,7 +45,5 @@ pool-1-thread-2   end 1480821639573
 invokeAll   end 1480821639573
 返回的结果=returnA 1480821639573
 返回的结果=returnB 1480821639573
-
 Process finished with exit code 1
-
  */

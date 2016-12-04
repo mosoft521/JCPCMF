@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p140method15.mycallable;
 import java.util.concurrent.Callable;
 
 public class MyCallable implements Callable<String> {
-
     private long sleepValue;
 
     public MyCallable(long sleepValue) {

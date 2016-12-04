@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch03Phaser.p036Phaser_test1.tools.PrintTools;
 import java.util.concurrent.Phaser;
 
 public class ThreadC extends Thread {
-
     private Phaser phaser;
 
     public ThreadC(Phaser phaser) {
@@ -16,5 +15,4 @@ public class ThreadC extends Thread {
     public void run() {
         PrintTools.methodB();
     }
-
 }

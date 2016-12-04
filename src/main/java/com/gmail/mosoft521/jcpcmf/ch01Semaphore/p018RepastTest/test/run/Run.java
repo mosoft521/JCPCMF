@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p018RepastTest.extthread.ThreadP
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p018RepastTest.service.RepastService;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
         RepastService service = new RepastService();
         ThreadP[] arrayP = new ThreadP[10];

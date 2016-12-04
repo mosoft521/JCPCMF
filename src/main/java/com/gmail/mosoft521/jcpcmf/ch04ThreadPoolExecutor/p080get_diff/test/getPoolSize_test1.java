@@ -5,7 +5,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class getPoolSize_test1 {
-
     public static void main(String[] args) throws InterruptedException {
         Runnable runnable = new Runnable() {
             @Override
@@ -17,7 +16,6 @@ public class getPoolSize_test1 {
                 }
             }
         };
-
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 5, 100,
                 TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
         executor.execute(runnable);
@@ -28,6 +26,5 @@ public class getPoolSize_test1 {
 }
 /*
 3
-
 Process finished with exit code 1
  */

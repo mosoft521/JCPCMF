@@ -6,7 +6,6 @@ import com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p032CyclicBarrier_run2.servi
 import java.util.concurrent.CyclicBarrier;
 
 public class Run {
-
     public static void main(String[] args) {
         int parties = 4;
         CyclicBarrier cbRef = new CyclicBarrier(parties, new Runnable() {
@@ -14,9 +13,7 @@ public class Run {
                 System.out.println("都到了！");
             }
         });
-
         MyService myService = new MyService(cbRef);
-
         MyThread[] threadArray = new MyThread[4];
         for (int i = 0; i < threadArray.length; i++) {
             threadArray[i] = new MyThread(myService);
@@ -38,7 +35,6 @@ Exception in thread "Thread-2" java.lang.NumberFormatException: For input string
 	at com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p032CyclicBarrier_run2.service.MyService.beginRun(MyService.java:22)
 	at com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p032CyclicBarrier_run2.service.MyService.testA(MyService.java:43)
 	at com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p032CyclicBarrier_run2.extthread.MyThread.run(MyThread.java:16)
-
 ②
 Thread-0 到了 在等待其它人都到了开始起跑
 Thread-3 到了 在等待其它人都到了开始起跑

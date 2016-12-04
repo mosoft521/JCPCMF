@@ -34,6 +34,5 @@ java.util.concurrent.RejectedExecutionException
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-
 Process finished with exit code 1
  */

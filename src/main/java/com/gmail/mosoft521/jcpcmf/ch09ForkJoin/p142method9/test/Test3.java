@@ -14,15 +14,12 @@ public class Test3 {
         pool.execute(myRunnable);
         System.out.println("main end!");
         Thread.sleep(Integer.MAX_VALUE);
-
         // shutdown:
         // 每个任务正常运行直到结束，
         // 池关闭后不再允许有新任务被执行并抛出RejectedExecutionException异常。
-
         // shutdownNow结合isInterrupted() ==true判断:
         // 立即停止当前正在执行的任务
         // 池关闭后不再允许有新任务被执行并抛出RejectedExecutionException异常
-
         // shutdownNow未结合isInterrupted() ==true判断:
         // 每个任务正常运行直到结束
         // 池关闭后不再允许有新任务被执行并抛出RejectedExecutionException异常
@@ -40,6 +37,5 @@ Exception in thread "main" java.util.concurrent.RejectedExecutionException
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-
 Process finished with exit code 1
  */

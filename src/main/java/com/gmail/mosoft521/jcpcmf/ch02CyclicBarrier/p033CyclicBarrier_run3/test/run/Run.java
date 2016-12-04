@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p033CyclicBarrier_run3.extth
 import com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p033CyclicBarrier_run3.service.MyService;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
         MyService service = new MyService();
         MyThreadA a = new MyThreadA(service);

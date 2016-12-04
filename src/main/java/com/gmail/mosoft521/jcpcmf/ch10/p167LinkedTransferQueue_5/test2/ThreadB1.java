@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p167LinkedTransferQueue_5.test2;
 import java.util.concurrent.TimeUnit;
 
 public class ThreadB1 extends Thread {
-
     private MyServiceB service;
 
     public ThreadB1(MyServiceB service) {
@@ -24,5 +23,4 @@ public class ThreadB1 extends Thread {
             e.printStackTrace();
         }
     }
-
 }

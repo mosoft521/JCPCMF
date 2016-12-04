@@ -50,6 +50,5 @@ public class MyService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 }

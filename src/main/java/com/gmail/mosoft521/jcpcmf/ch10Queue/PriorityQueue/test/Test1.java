@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10Queue.PriorityQueue.test;
 import java.util.PriorityQueue;
 
 public class Test1 {
-
     public static void main(String[] args) {
         PriorityQueue pqRef = new PriorityQueue();
         pqRef.add(3);
@@ -21,7 +20,6 @@ public class Test1 {
         System.out.println(pqRef.poll());
         System.out.println(pqRef.size());
     }
-
 }
 /*
 1
@@ -31,6 +29,5 @@ public class Test1 {
 888
 999
 0
-
 Process finished with exit code 0
  */

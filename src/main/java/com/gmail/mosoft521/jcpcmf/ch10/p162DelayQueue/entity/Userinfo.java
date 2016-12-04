@@ -4,14 +4,12 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 public class Userinfo implements Delayed {
-
     private long delayNanoTime;// 延迟的纳秒
     private String username;
 
     public Userinfo(long delayTime, String username) {
         super();
         this.username = username;
-
         TimeUnit unit = TimeUnit.SECONDS;
         delayNanoTime = System.nanoTime() + unit.toNanos(delayTime);
     }
@@ -42,5 +40,4 @@ public class Userinfo implements Delayed {
         return unit.convert(delayNanoTime - System.nanoTime(),
                 TimeUnit.NANOSECONDS);
     }
-
 }

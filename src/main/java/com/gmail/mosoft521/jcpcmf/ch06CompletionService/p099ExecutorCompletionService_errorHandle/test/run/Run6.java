@@ -10,17 +10,14 @@ import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Executors;
 
 public class Run6 {
-
     public static void main(String[] args) {
         try {
             MyCallableA callableA = new MyCallableA();
             MyCallableB callableB = new MyCallableB();
-
             Executor executor = Executors.newSingleThreadExecutor();
             CompletionService csRef = new ExecutorCompletionService(executor);
             csRef.submit(callableB);// 先执行B
             csRef.submit(callableA);// 后执行A
-
             for (int i = 0; i < 2; i++) {
                 System.out.println("zzzzzzzzzzzz" + " " + csRef.poll());
             }
@@ -59,6 +56,5 @@ Caused by: java.lang.Exception: 抛出异常！
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 MyCallableA   end 1480818980922
-
 Process finished with exit code 1
  */

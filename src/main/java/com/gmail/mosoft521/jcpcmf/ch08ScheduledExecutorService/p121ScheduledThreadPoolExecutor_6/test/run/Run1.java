@@ -9,30 +9,24 @@ import java.util.concurrent.TimeUnit;
 
 public class Run1 {
     public static void main(String[] args) {
-
         ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(
                 10);
-
         Runnable runnable1 = new MyRunnable("A");
         Runnable runnable2 = new MyRunnable("B");
         Runnable runnable3 = new MyRunnable("C");
         Runnable runnable4 = new MyRunnable("D");
         Runnable runnable5 = new MyRunnable("E");
-
         System.out.println(runnable1.hashCode());
         System.out.println(runnable2.hashCode());
         System.out.println(runnable3.hashCode());
         System.out.println(runnable4.hashCode());
         System.out.println(runnable5.hashCode());
-
         executor.scheduleAtFixedRate(runnable1, 10, 2, TimeUnit.SECONDS);
         executor.scheduleAtFixedRate(runnable2, 10, 2, TimeUnit.SECONDS);
         executor.scheduleAtFixedRate(runnable3, 10, 2, TimeUnit.SECONDS);
         executor.scheduleAtFixedRate(runnable4, 10, 2, TimeUnit.SECONDS);
         executor.scheduleAtFixedRate(runnable5, 10, 2, TimeUnit.SECONDS);
-
         System.out.println("");
-
         BlockingQueue<Runnable> queue = executor.getQueue();
         Iterator<Runnable> iterator = queue.iterator();
         while (iterator.hasNext()) {
@@ -47,7 +41,6 @@ public class Run1 {
 1735600054
 21685669
 2133927002
-
 队列中的：java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7ea987ac
 队列中的：java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@12a3a380
 队列中的：java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@29453f44
@@ -70,6 +63,5 @@ run! username=C pool-1-thread-9
 run! username=E pool-1-thread-10
 run! username=A pool-1-thread-8
 ...
-
 Process finished with exit code 1
  */

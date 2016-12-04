@@ -55,6 +55,5 @@ A:0
 B:7
 B:7
 B:0
-
 Process finished with exit code 1
  */

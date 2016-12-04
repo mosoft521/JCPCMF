@@ -20,6 +20,5 @@ public class Test3 {
 /*
 A=false 1480834164313
 B=false 1480834165315
-
 Process finished with exit code 0
  */

@@ -15,5 +15,4 @@ public class MyServiceB {
     public void serviceMethod() {
         queue.poll();
     }
-
 }

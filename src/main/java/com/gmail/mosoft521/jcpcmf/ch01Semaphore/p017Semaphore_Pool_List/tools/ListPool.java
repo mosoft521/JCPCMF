@@ -7,7 +7,6 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ListPool {
-
     private int poolMaxSize = 5;
     private int semaphorePermits = 5;
     private List<String> list = new ArrayList<String>();

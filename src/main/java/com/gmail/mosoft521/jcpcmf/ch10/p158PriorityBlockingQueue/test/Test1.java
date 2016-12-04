@@ -13,7 +13,6 @@ public class Test1 {
         queue.add(new Userinfo(1346));
         queue.add(new Userinfo(1762));
         queue.add(new Userinfo(1876876));
-
         System.out.println(queue.poll().getId());
         System.out.println(queue.poll().getId());
         System.out.println(queue.poll().getId());
@@ -31,6 +30,5 @@ public class Test1 {
 13478
 1876876
 null
-
 Process finished with exit code 0
  */

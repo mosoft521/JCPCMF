@@ -4,7 +4,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Service {
-
     private Semaphore semaphore = new Semaphore(3);
     private ReentrantLock lock = new ReentrantLock();
 

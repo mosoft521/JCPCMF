@@ -11,13 +11,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Run2 {
-
     public static void main(String[] args) {
         try {
             List<Callable<String>> list = new ArrayList<Callable<String>>();
             list.add(new MyCallableA());
             list.add(new MyCallableB2());
-
             ExecutorService executor = Executors.newCachedThreadPool();
             // invokeAny只取得最先完成任务的结果值
             String getValueA = executor.invokeAny(list);
@@ -43,6 +41,5 @@ MyCallableA   end 1480820831290
 ZZZZZZZZZZZZZZZZ
 MyCallableB 53164
 ***********抛出异常中断了
-
 Process finished with exit code 1
  */

@@ -19,6 +19,5 @@ public class Test1 {
 /*
 Alvin：Sat Dec 03 21:16:49 CST 2016 1480771009293
 Alvin：Sat Dec 03 21:16:49 CST 2016 1480771013293
-
 Process finished with exit code 1
  */

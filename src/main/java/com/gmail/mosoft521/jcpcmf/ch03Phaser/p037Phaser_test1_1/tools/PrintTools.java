@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch03Phaser.p037Phaser_test1_1.tools;
 import java.util.concurrent.Phaser;
 
 public class PrintTools {
-
     public static Phaser phaser;
 
     public static void methodA() {
@@ -12,7 +11,6 @@ public class PrintTools {
         phaser.arriveAndAwaitAdvance();
         System.out.println(Thread.currentThread().getName() + " A1   end="
                 + System.currentTimeMillis());
-
         System.out.println(Thread.currentThread().getName() + " A2 begin="
                 + System.currentTimeMillis());
         phaser.arriveAndAwaitAdvance();
@@ -33,5 +31,4 @@ public class PrintTools {
             e.printStackTrace();
         }
     }
-
 }

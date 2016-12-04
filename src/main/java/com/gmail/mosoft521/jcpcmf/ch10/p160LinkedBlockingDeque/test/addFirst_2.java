@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p160LinkedBlockingDeque.test;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class addFirst_2 {
-
     public static void main(String[] args) {
         LinkedBlockingDeque deque = new LinkedBlockingDeque(2);
         deque.addFirst("anyString");
@@ -11,7 +10,6 @@ public class addFirst_2 {
         deque.addFirst("anyString");
         System.out.println(deque.size());
     }
-
 }
 /*
 Exception in thread "main" java.lang.IllegalStateException: Deque full
@@ -22,6 +20,5 @@ Exception in thread "main" java.lang.IllegalStateException: Deque full
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-
 Process finished with exit code 1
  */

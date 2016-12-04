@@ -40,6 +40,5 @@ begin pool-1-thread-1 1480770316936
 begin pool-1-thread-2 1480770316937
   end pool-1-thread-1 1480770320936
   end pool-1-thread-2 1480770320937
-
 Process finished with exit code 1
  */

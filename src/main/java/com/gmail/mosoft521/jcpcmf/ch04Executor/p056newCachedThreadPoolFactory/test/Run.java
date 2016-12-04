@@ -20,6 +20,5 @@ public class Run {
 }
 /*
 我在运行1480768353414 定制池中的线程对象的名称0.7990475674406844
-
 Process finished with exit code 1
  */

@@ -11,14 +11,12 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test {
-
     FutureTask abc;
 
     public static void main(String[] args) {
         try {
             Userinfo userinfo = new Userinfo();
             MyRunnable myrunnable = new MyRunnable(userinfo);
-
             ThreadPoolExecutor pool = new ThreadPoolExecutor(10, 10, 10,
                     TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
             Future<Userinfo> future = pool.submit(myrunnable, userinfo);
@@ -40,6 +38,5 @@ java.util.concurrent.FutureTask@677327b6
 begin time=1480816646131
 get value usernameValue passwordValue
   end time=1480816646133
-
 Process finished with exit code 1
  */

@@ -4,7 +4,6 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 public class MyService {
-
     public CyclicBarrier cyclicBarrier = new CyclicBarrier(3, new Runnable() {
         @Override
         public void run() {

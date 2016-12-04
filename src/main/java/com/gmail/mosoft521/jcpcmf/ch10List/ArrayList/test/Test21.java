@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Test21 {
-
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
         list.add("a");
@@ -12,10 +11,8 @@ public class Test21 {
         list.add("c");
         list.add("d");
         list.add("e");
-
         list.remove(1);// 删除后索引改变了
         list.remove(2);
-
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
@@ -26,6 +23,5 @@ public class Test21 {
 a
 c
 e
-
 Process finished with exit code 0
  */

@@ -16,7 +16,6 @@ public class Run {
         Thread.sleep(2000);
         System.out.println("已到达：" + phaser.getArrivedParties());
         System.out.println("未到达：" + phaser.getUnarrivedParties());
-
     }
 }
 /*

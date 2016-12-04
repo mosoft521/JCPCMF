@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Exchange.p020Exchanger_2.extthread;
 import java.util.concurrent.Exchanger;
 
 public class ThreadB extends Thread {
-
     private Exchanger<String> exchanger;
 
     public ThreadB(Exchanger<String> exchanger) {
@@ -19,5 +18,4 @@ public class ThreadB extends Thread {
             e.printStackTrace();
         }
     }
-
 }

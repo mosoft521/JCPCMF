@@ -4,11 +4,9 @@ import java.util.Iterator;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class remove_3 {
-
     public static void main(String[] args) {
         ArrayBlockingQueue queue = new ArrayBlockingQueue(4);
         System.out.println(queue.remove());
-
         Iterator iterator = queue.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
@@ -24,6 +22,5 @@ Exception in thread "main" java.util.NoSuchElementException
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-
 Process finished with exit code 1
  */

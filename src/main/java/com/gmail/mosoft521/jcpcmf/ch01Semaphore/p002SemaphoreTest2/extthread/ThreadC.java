@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.extthread;
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p002SemaphoreTest2.service.Service;
 
 public class ThreadC extends Thread {
-
     private Service service;
 
     public ThreadC(Service service) {
@@ -15,5 +14,4 @@ public class ThreadC extends Thread {
     public void run() {
         service.testMethod();
     }
-
 }

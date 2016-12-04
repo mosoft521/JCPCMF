@@ -4,9 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Run1 {
-
     public static void main(String[] args) {
-
         ExecutorService executorService = Executors.newCachedThreadPool();
         executorService.execute(new Runnable() {
             @Override
@@ -40,7 +38,6 @@ public class Run1 {
                 }
             }
         });
-
     }
 }
 /*
@@ -50,5 +47,4 @@ B
 A
 Runnable2   end 1480768001500
 Runnable1   end 1480768001500
-
  */

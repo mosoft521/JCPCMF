@@ -21,7 +21,6 @@ public class Run2 {
                 }
             }
         };
-
         ForkJoinPool pool = new ForkJoinPool();
         ForkJoinTask task = pool.submit(runnable);
         Thread.sleep(500);

@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p073queueDiff_big_test.myrunnable;
 
 public class MyRunnable implements Runnable {
-
     @Override
     public void run() {
         try {
@@ -12,5 +11,4 @@ public class MyRunnable implements Runnable {
             e.printStackTrace();
         }
     }
-
 }

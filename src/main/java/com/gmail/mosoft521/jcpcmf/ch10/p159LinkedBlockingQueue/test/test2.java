@@ -4,7 +4,6 @@ import com.gmail.mosoft521.jcpcmf.ch10.p159LinkedBlockingQueue.extthread.ThreadA
 import com.gmail.mosoft521.jcpcmf.ch10.p159LinkedBlockingQueue.service.MyServiceA;
 
 public class test2 {
-
     public static void main(String[] args) throws InterruptedException {
         // ��ʵ��֤��ArrayList�Ƿ��̰߳�ȫ��
         MyServiceA service = new MyServiceA();
@@ -27,6 +26,5 @@ z
 z
 z
 5
-
 Process finished with exit code 0
  */

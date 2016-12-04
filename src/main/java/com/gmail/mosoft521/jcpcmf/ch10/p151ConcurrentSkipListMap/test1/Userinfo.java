@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p151ConcurrentSkipListMap.test1;
 
 public class Userinfo implements Comparable<Userinfo> {
-
     private int id;
     private String username;
 
@@ -41,5 +40,4 @@ public class Userinfo implements Comparable<Userinfo> {
         }
         return 0;
     }
-
 }

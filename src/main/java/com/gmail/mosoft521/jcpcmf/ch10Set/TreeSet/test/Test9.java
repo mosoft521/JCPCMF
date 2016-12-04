@@ -5,14 +5,12 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Test9 {
-
     public static void main(String[] args) {
         TreeSet set = new TreeSet();
         set.add(10);
         set.add(9);
         set.add(1);
         set.add(2);
-
         // headSet:最小到<=10
         Set newSet = set.headSet(10, true);
         Iterator iterator = newSet.iterator();
@@ -26,6 +24,5 @@ public class Test9 {
 2
 9
 10
-
 Process finished with exit code 0
  */

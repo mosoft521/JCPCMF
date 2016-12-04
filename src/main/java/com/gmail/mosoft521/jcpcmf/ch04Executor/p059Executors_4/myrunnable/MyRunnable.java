@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04Executor.p059Executors_4.myrunnable;
 
 public class MyRunnable implements Runnable {
-
     private String username;
 
     public MyRunnable(String username) {

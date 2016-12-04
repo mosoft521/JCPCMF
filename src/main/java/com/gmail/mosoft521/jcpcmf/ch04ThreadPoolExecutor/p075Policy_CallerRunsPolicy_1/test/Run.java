@@ -7,10 +7,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Run {
-
     public static void main(String[] args) {
         MyThreadA a = new MyThreadA();
-
         LinkedBlockingDeque queue = new LinkedBlockingDeque(2);
         ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 3, 5,
                 TimeUnit.SECONDS, queue,
@@ -36,6 +34,5 @@ a begin main 1480772217832
 a   end main 1480772222835
   end pool-1-thread-3 1480772227835
   end pool-1-thread-1 1480772227835
-
 Process finished with exit code 1
  */

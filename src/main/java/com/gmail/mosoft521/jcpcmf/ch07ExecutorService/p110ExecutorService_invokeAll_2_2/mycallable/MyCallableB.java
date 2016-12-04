@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch07ExecutorService.p110ExecutorService_invok
 import java.util.concurrent.Callable;
 
 public class MyCallableB implements Callable<String> {
-
     public String call() throws Exception {
         System.out.println("MyCallableB begin " + System.currentTimeMillis());
         for (int i = 0; i < 123456; i++) {
@@ -15,5 +14,4 @@ public class MyCallableB implements Callable<String> {
         System.out.println("MyCallableB   end " + System.currentTimeMillis());
         return "returnB";
     }
-
 }

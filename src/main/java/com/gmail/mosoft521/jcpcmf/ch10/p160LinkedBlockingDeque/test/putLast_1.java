@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class putLast_1 {
-
     public static void main(String[] args) {
         try {
             LinkedBlockingDeque deque = new LinkedBlockingDeque(3);
@@ -20,13 +19,11 @@ public class putLast_1 {
             e.printStackTrace();
         }
     }
-
 }
 /*
 3
 anyString1
 anyString2
 anyString3
-
 Process finished with exit code 0
  */

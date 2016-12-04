@@ -4,14 +4,12 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 public class poll_2 {
-
     public static void main(String[] args) {
         try {
             ArrayBlockingQueue queue = new ArrayBlockingQueue(3);
             System.out.println(System.currentTimeMillis());
             System.out.println(queue.poll(5, TimeUnit.SECONDS));
             System.out.println(System.currentTimeMillis());
-
             System.out.println(queue.offer("myString1"));
             System.out.println(queue.offer("myString2"));
             System.out.println("A begin " + System.currentTimeMillis());
@@ -46,10 +44,8 @@ B begin 1480837031722
 myString2
 B   end 1480837031722
 0
-
 1480837031722
 null
 1480837036723
-
 Process finished with exit code 0
  */

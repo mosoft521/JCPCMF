@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p157ArrayBlockingQueue.test;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class put {
-
     public static void main(String[] args) {
         try {
             ArrayBlockingQueue queue = new ArrayBlockingQueue(3);

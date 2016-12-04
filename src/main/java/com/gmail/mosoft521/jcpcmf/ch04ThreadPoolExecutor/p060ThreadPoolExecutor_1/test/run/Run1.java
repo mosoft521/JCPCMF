@@ -16,14 +16,11 @@ public class Run1 {
         System.out.println(executor.getCorePoolSize());
         System.out.println(executor.getMaximumPoolSize());
     }
-
 }
 /*
 7
 8
-
 7
 8
-
 Process finished with exit code 0
  */

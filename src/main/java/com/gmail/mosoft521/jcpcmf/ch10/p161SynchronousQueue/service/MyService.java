@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p161SynchronousQueue.service;
 import java.util.concurrent.SynchronousQueue;
 
 public class MyService {
-
     public static SynchronousQueue queue = new SynchronousQueue();
 
     public void putMethod() {

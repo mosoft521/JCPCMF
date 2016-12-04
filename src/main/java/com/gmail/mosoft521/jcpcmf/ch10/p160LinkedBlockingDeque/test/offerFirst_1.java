@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class offerFirst_1 {
-
     public static void main(String[] args) {
         LinkedBlockingDeque deque = new LinkedBlockingDeque(3);
         System.out.println(deque.offerFirst("anyString1"));
@@ -16,7 +15,6 @@ public class offerFirst_1 {
             System.out.println(iterator.next());
         }
     }
-
 }
 /*
 true
@@ -26,6 +24,5 @@ true
 anyString3
 anyString2
 anyString1
-
 Process finished with exit code 0
  */

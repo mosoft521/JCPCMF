@@ -31,6 +31,5 @@ pool-1-thread-1 1480770894503
 pool-1-thread-1 1480770898503
 pool-1-thread-2 1480770898503
 true 1480770898503 全部任务执行完毕！
-
 Process finished with exit code 0
  */

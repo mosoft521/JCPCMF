@@ -3,14 +3,12 @@ package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p075Policy_CallerRunsP
 import com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p075Policy_CallerRunsPolicy_2.extthread.MyThreadA;
 
 public class Run {
-
     public static void main(String[] args) {
         MyThreadA a = new MyThreadA();
         a.setName("AA");
         a.start();
         System.out.println("main end!");
     }
-
 }
 /*
 main end!
@@ -23,6 +21,5 @@ a   end AA 1480772316188
 a   end 1480772316188
   end pool-1-thread-1 1480772321187
   end pool-1-thread-2 1480772321188
-
 Process finished with exit code 1
  */

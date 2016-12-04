@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p014Semaphore_tryAcquire_4.extth
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p014Semaphore_tryAcquire_4.service.Service;
 
 public class Run {
-
     public static void main(String[] args) {
         Service service = new Service();
         ThreadA a = new ThreadA(service);

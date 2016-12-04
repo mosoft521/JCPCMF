@@ -4,7 +4,6 @@ import com.gmail.mosoft521.jcpcmf.ch02CountDownLatch.p026CountDownLatch_wait.ext
 import com.gmail.mosoft521.jcpcmf.ch02CountDownLatch.p026CountDownLatch_wait.service.MyService;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
         MyService service = new MyService();
         MyThread[] threadArray = new MyThread[3];

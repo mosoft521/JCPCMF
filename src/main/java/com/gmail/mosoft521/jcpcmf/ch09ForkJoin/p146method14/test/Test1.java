@@ -13,6 +13,5 @@ public class Test1 {
 }
 /*
 ThreadName=ForkJoinPool-1-worker-1
-
 Process finished with exit code 0
  */

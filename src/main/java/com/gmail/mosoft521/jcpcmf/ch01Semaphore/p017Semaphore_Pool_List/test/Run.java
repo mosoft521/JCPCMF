@@ -4,11 +4,8 @@ import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p017Semaphore_Pool_List.extthrea
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p017Semaphore_Pool_List.tools.ListPool;
 
 public class Run {
-
     public static void main(String[] args) {
-
         ListPool pool = new ListPool();
-
         MyThread[] threadArray = new MyThread[12];
         for (int i = 0; i < threadArray.length; i++) {
             threadArray[i] = new MyThread(pool);
@@ -16,7 +13,6 @@ public class Run {
         for (int i = 0; i < threadArray.length; i++) {
             threadArray[i].start();
         }
-
     }
 }
 /*

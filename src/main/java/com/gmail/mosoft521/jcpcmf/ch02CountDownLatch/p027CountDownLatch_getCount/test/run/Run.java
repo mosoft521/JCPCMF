@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch02CountDownLatch.p027CountDownLatch_getCoun
 import java.util.concurrent.CountDownLatch;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
         CountDownLatch count = new CountDownLatch(3);
         System.out.println("main getCount1=" + count.getCount());

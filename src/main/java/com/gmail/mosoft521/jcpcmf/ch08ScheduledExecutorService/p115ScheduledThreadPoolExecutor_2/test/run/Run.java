@@ -16,12 +16,10 @@ public class Run {
         runnableList.add(new MyRunnableB());
         ScheduledExecutorService executor = Executors
                 .newSingleThreadScheduledExecutor();
-
         System.out.println("     X=" + System.currentTimeMillis());
         executor.schedule(runnableList.get(0), 0L, TimeUnit.SECONDS);
         executor.schedule(runnableList.get(1), 0L, TimeUnit.SECONDS);
         System.out.println("     Y=" + System.currentTimeMillis());
-
     }
 }
 /*
@@ -31,6 +29,5 @@ runnableA begin pool-1-thread-1 1480823120436
 runnableA   end pool-1-thread-1 1480823123436
 runnableB begin pool-1-thread-1 1480823123436
 runnableB   end pool-1-thread-1 1480823123436
-
 Process finished with exit code 1
  */

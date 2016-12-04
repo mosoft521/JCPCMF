@@ -15,5 +15,4 @@ public class MyServiceA {
     public void serviceMethod() {
         list.remove(0);
     }
-
 }

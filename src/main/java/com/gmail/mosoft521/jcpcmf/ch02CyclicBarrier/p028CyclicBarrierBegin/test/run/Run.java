@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p028CyclicBarrierBegin.extth
 import java.util.concurrent.CyclicBarrier;
 
 public class Run {
-
     public static void main(String[] args) {
         CyclicBarrier cbRef = new CyclicBarrier(5, new Runnable() {
             public void run() {

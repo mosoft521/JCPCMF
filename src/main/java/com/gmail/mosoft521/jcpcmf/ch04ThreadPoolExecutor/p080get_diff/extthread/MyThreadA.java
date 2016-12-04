@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p080get_diff.extthread;
 
 public class MyThreadA extends Thread {
-
     @Override
     public void run() {
         try {

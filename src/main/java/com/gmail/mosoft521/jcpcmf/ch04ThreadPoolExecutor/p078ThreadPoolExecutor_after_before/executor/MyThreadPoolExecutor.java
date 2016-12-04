@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class MyThreadPoolExecutor extends ThreadPoolExecutor {
-
     public MyThreadPoolExecutor(int corePoolSize, int maximumPoolSize,
                                 long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue) {
         super(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue);
@@ -24,5 +23,4 @@ public class MyThreadPoolExecutor extends ThreadPoolExecutor {
         super.beforeExecute(t, r);
         System.out.println("准备执行：" + ((MyRunnable) r).getUsername());
     }
-
 }

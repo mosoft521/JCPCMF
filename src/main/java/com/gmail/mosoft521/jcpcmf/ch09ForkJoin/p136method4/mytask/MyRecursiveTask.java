@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p136method4.mytask;
 import java.util.concurrent.RecursiveTask;
 
 public class MyRecursiveTask extends RecursiveTask<String> {
-
     @Override
     protected String compute() {
         try {
@@ -13,5 +12,4 @@ public class MyRecursiveTask extends RecursiveTask<String> {
         }
         return "我是返回值ֵ";
     }
-
 }

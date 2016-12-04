@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class ArrayBlockingQueueTest1 {
-
     public static void main(String[] args) throws InterruptedException {
         // ArrayBlockingQueue使用带参构造
         // max值被参考
@@ -37,6 +36,5 @@ begin 1480771938840
   end 1480771938840
   end 1480771939838
   end 1480771939840
-
 Process finished with exit code 1
  */

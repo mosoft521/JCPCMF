@@ -9,11 +9,9 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
         try {
             MyCallable callable = new MyCallable(100);
-
             ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 3, 5L,
                     TimeUnit.SECONDS, new LinkedBlockingDeque());
             Future<String> future = executor.submit(callable);
@@ -29,6 +27,5 @@ public class Run {
 main A 1480816521007
 返回值 年龄是：100
 main B 1480816529009
-
 Process finished with exit code 1
  */

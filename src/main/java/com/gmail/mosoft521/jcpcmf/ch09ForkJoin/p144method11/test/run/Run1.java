@@ -18,7 +18,6 @@ public class Run1 {
                 }
             }
         };
-
         ForkJoinPool pool = new ForkJoinPool();
         pool.execute(runnable);
         System.out.println("A=" + pool.isShutdown());
@@ -26,13 +25,11 @@ public class Run1 {
         Thread.sleep(5000);
         System.out.println("B=" + pool.isShutdown());
     }
-
 }
 /*
 A=false
 打印了！begin ForkJoinPool-1-worker-1
 打印了！      end ForkJoinPool-1-worker-1
 B=true
-
 Process finished with exit code 0
  */

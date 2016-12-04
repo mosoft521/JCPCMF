@@ -8,7 +8,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Run {
-
     public static void main(String[] args) {
         try {
             // take方法：获取并移除表示下一个已完成任务的 Future，如果目前不存在这样的任务，则等待。
@@ -35,7 +34,6 @@ public class Run {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 }
 /*
@@ -59,7 +57,5 @@ Alvin：349 pool-1-thread-9
 Alvin：372 pool-1-thread-2
 Alvin：410 pool-1-thread-10
 Alvin：856 pool-1-thread-3
-
 Process finished with exit code 1
-
  */

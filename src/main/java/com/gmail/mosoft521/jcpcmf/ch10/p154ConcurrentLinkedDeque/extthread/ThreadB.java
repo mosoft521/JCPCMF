@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p154ConcurrentLinkedDeque.extthread;
 import com.gmail.mosoft521.jcpcmf.ch10.p154ConcurrentLinkedDeque.myservice.MyService;
 
 public class ThreadB extends Thread {
-
     private MyService service;
 
     public ThreadB(MyService service) {
@@ -18,5 +17,4 @@ public class ThreadB extends Thread {
             System.out.println(service.queue.size());
         }
     }
-
 }

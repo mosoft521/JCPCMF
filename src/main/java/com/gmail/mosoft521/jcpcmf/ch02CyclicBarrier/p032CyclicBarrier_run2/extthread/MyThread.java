@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p032CyclicBarrier_run2.extt
 import com.gmail.mosoft521.jcpcmf.ch02CyclicBarrier.p032CyclicBarrier_run2.service.MyService;
 
 public class MyThread extends Thread {
-
     private MyService myService;
 
     public MyThread(MyService myService) {
@@ -15,8 +14,6 @@ public class MyThread extends Thread {
     public void run() {
         myService.testA();
     }
-
 }
 /*
-
  */

@@ -19,6 +19,5 @@ public class Run1 {
 /*
 已经shutdown了
 run! username=A pool-1-thread-1 1480823685195
-
 Process finished with exit code 0
  */

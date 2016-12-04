@@ -26,5 +26,4 @@ A A1 begin=1480756506750
 java.lang.InterruptedException
 	at java.util.concurrent.Phaser.awaitAdvanceInterruptibly(Phaser.java:760)
 	at com.gmail.mosoft521.jcpcmf.ch03Phaser.p048Phaser_test8_2.extthread.ThreadA.run(ThreadA.java:18)
-
  */

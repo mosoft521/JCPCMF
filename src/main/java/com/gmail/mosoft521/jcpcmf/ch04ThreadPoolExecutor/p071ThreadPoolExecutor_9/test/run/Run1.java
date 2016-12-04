@@ -21,7 +21,6 @@ public class Run1 {
                 }
             }
         };
-
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 2, 5,
                 TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
         System.out.println("线程池中的线程数A：" + executor.getPoolSize());
@@ -47,6 +46,5 @@ Z4=false
 Z5=false
 Z6=false
 线程池中的线程数D：2
-
 Process finished with exit code 1
  */

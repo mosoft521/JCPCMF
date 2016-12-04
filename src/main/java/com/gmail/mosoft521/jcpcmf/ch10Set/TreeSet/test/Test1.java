@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10Set.TreeSet.test;
 import java.util.TreeSet;
 
 public class Test1 {
-
     public static void main(String[] args) {
         TreeSet set = new TreeSet();
         set.add(1);
@@ -21,6 +20,5 @@ public class Test1 {
 /*
 3
 4
-
 Process finished with exit code 0
  */

@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p166LinkedTransferQueue_4.test2;
 
 public class ThreadB1 extends Thread {
-
     private MyServiceB service;
 
     public ThreadB1(MyServiceB service) {
@@ -18,5 +17,4 @@ public class ThreadB1 extends Thread {
         System.out.println(Thread.currentThread().getName() + "   endA "
                 + System.currentTimeMillis());
     }
-
 }

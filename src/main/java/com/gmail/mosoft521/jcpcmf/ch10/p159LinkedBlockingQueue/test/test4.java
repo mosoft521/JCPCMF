@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p159LinkedBlockingQueue.test;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class test4 {
-
     public static void main(String[] args) throws InterruptedException {
         LinkedBlockingQueue queue = new LinkedBlockingQueue(3);
         System.out.println(queue.add("abc"));
@@ -25,6 +24,5 @@ Exception in thread "main" java.lang.IllegalStateException: Queue full
 true
 true
 true
-
 Process finished with exit code 1
  */

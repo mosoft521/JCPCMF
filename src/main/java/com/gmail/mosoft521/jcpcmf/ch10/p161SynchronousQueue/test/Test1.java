@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p161SynchronousQueue.test;
 import java.util.concurrent.SynchronousQueue;
 
 public class Test1 {
-
     public static void main(String[] args) {
         try {
             SynchronousQueue queue = new SynchronousQueue();
@@ -16,7 +15,6 @@ public class Test1 {
             e.printStackTrace();
         }
     }
-
 }
 /*
 step1

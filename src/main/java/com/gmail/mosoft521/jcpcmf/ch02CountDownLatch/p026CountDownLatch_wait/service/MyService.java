@@ -4,7 +4,6 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 public class MyService {
-
     public CountDownLatch count = new CountDownLatch(1);
 
     public void testMethod() {

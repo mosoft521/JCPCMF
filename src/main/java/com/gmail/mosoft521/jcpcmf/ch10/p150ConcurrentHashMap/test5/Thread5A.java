@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p150ConcurrentHashMap.test5;
 import java.util.Iterator;
 
 public class Thread5A extends Thread {
-
     private MyService5 myService;
 
     public Thread5A(MyService5 myService) {
@@ -23,5 +22,4 @@ public class Thread5A extends Thread {
             e.printStackTrace();
         }
     }
-
 }

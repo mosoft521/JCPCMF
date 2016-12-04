@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch03Phaser.p046Phaser_test7.extthread;
 import java.util.concurrent.Phaser;
 
 public class ThreadC extends Thread {
-
     private Phaser phaser;
 
     public ThreadC(Phaser phaser) {
@@ -24,5 +23,4 @@ public class ThreadC extends Thread {
             e.printStackTrace();
         }
     }
-
 }

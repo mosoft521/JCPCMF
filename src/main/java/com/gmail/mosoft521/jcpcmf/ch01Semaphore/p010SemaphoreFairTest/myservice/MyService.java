@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p010SemaphoreFairTest.myservice
 import java.util.concurrent.Semaphore;
 
 public class MyService {
-
     private boolean isFair = true;
     private Semaphore semaphore = new Semaphore(1, isFair);
 

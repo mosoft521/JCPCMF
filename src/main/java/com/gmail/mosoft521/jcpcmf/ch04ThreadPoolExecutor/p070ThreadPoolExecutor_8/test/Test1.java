@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test1 {
-
     public static void main(String[] args) throws InterruptedException {
         ThreadPoolExecutor pool = new ThreadPoolExecutor(4, 5, 5,
                 TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
@@ -31,6 +30,5 @@ pool-1-thread-3   end 1480771336012
 pool-1-thread-2 begin 1480771336012
 pool-1-thread-2   end 1480771336013
 4
-
 Process finished with exit code 1
  */

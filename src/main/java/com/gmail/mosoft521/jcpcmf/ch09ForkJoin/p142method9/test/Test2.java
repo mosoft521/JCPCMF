@@ -18,6 +18,5 @@ public class Test2 {
 /*
 任务成功完成！
 main end!
-
 Process finished with exit code 1
  */

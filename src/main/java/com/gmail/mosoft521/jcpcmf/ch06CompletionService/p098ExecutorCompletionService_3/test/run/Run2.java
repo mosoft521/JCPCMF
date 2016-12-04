@@ -11,18 +11,14 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class Run2 {
-
     public static void main(String[] args) {
-
         try {
             MyCallableA callableA = new MyCallableA();
             MyCallableB callableB = new MyCallableB();
-
             Executor executor = Executors.newCachedThreadPool();
             CompletionService csRef = new ExecutorCompletionService(executor);
             csRef.submit(callableA);
             csRef.submit(callableB);
-
             for (int i = 0; i < 2; i++) {
                 System.out.println("zzzzzzzzzzzz" + " "
                         + csRef.poll(6, TimeUnit.SECONDS).get());
@@ -44,6 +40,5 @@ MyCallableB 1480818559852
 zzzzzzzzzzzz returnB
 X
 main end!
-
 Process finished with exit code 1
  */

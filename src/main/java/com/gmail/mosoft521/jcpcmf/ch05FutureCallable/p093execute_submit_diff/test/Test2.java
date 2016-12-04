@@ -6,7 +6,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test2 {
-
     public static void main(String[] args) {
         ExecutorService executor = new ThreadPoolExecutor(50,
                 Integer.MAX_VALUE, 5, TimeUnit.SECONDS,
@@ -28,6 +27,5 @@ Exception in thread "pool-1-thread-1" java.lang.NumberFormatException: For input
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-
 Process finished with exit code 1
  */

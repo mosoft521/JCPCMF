@@ -7,7 +7,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Run {
-
     public static void main(String[] args) {
         // poll方法：获取并移除表示下一个已完成任务的 Future，如果不存在这样的任务，则返回 null
         ExecutorService executorService = Executors.newCachedThreadPool();
@@ -29,6 +28,5 @@ public class Run {
 /*
 null
 3秒过后了
-
 Process finished with exit code 1
  */

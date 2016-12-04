@@ -12,15 +12,11 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             MyCallableA a = new MyCallableA();
-
             List<Callable<String>> callableList = new ArrayList();
             callableList.add(a);
-
             ExecutorService service = Executors.newCachedThreadPool();
             String getValue = service.invokeAny(callableList, 1,
                     TimeUnit.SECONDS);
@@ -54,7 +50,5 @@ java.util.concurrent.TimeoutException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
 进入catch TimeoutException 超时了
-
 Process finished with exit code 1
-
  */

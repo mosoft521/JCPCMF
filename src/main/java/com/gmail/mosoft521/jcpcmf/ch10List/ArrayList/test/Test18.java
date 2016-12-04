@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.ListIterator;
 
 public class Test18 {
-
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
         list.add("a");
@@ -12,7 +11,6 @@ public class Test18 {
         list.add("c");
         list.add("d");
         list.add("e");
-
         ListIterator iterator = list.listIterator();
         iterator.next();
         iterator.next();
@@ -29,6 +27,5 @@ addString 2
 c 3
 d 4
 e 5
-
 Process finished with exit code 0
  */

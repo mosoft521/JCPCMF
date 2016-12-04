@@ -13,7 +13,6 @@ public class Test2 {
         MyRunnable1 myRunnable2 = new MyRunnable1("中国2");
         MyRunnable1 myRunnable3 = new MyRunnable1("中国3");
         MyRunnable1 myRunnable4 = new MyRunnable1("中国4");
-
         ThreadPoolExecutor pool = new ThreadPoolExecutor(2, 3, 9999L,
                 TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
         pool.setRejectedExecutionHandler(new MyRejectedExecutionHandler());
@@ -31,6 +30,5 @@ pool-1-thread-2 1480771287300
 pool-1-thread-2 1480771291300
 pool-1-thread-1 1480771291300
 pool-1-thread-3 1480771291300
-
 Process finished with exit code 1
  */

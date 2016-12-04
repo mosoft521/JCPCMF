@@ -24,6 +24,5 @@ pool-1-thread-1 1480770817618
 pool-1-thread-1 1480770821619
 false
 main   end ! 1480770827619
-
 Process finished with exit code 1
  */

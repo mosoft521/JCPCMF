@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch02CountDownLatch.p023CountDownLatch_test3.e
 import java.util.concurrent.CountDownLatch;
 
 public class MyThread extends Thread {
-
     private CountDownLatch maxRuner;
 
     public MyThread(CountDownLatch maxRuner) {

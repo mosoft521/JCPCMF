@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p129test4.task;
 import java.util.concurrent.RecursiveTask;
 
 public class MyRecursiveTaskA extends RecursiveTask<Integer> {
-
     @Override
     protected Integer compute() {
         try {
@@ -17,5 +16,4 @@ public class MyRecursiveTaskA extends RecursiveTask<Integer> {
         }
         return 100;
     }
-
 }

@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p005Semaphore_acquireUninterrup
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p005Semaphore_acquireUninterruptibly_1.service.Service;
 
 public class ThreadB extends Thread {
-
     private Service service;
 
     public ThreadB(Service service) {
@@ -15,5 +14,4 @@ public class ThreadB extends Thread {
     public void run() {
         service.testMethod();
     }
-
 }

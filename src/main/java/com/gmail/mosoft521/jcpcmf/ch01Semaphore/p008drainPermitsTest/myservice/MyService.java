@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p008drainPermitsTest.myservice;
 import java.util.concurrent.Semaphore;
 
 public class MyService {
-
     private Semaphore semaphore = new Semaphore(10);
 
     public void testMethod() {

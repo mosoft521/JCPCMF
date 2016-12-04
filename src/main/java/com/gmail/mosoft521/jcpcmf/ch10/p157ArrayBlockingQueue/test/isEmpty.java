@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p157ArrayBlockingQueue.test;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class isEmpty {
-
     public static void main(String[] args) {
         ArrayBlockingQueue queue = new ArrayBlockingQueue(5);
         System.out.println(queue.isEmpty());
@@ -17,6 +16,5 @@ public class isEmpty {
 /*
 true
 false
-
 Process finished with exit code 0
  */

@@ -14,6 +14,5 @@ public class Test2 {
 }
 /*
 我是返回值
-
 Process finished with exit code 0
  */

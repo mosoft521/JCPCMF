@@ -22,6 +22,5 @@ begin ForkJoinPool-1-worker-1 1480834107777
   end ForkJoinPool-1-worker-1 1480834111778
 false
 main   end ! 1480834117778
-
 Process finished with exit code 0
  */

@@ -23,6 +23,5 @@ Exception in thread "Alvin：Sat Dec 03 21:18:14 CST 2016" java.lang.NullPointer
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 Alvin：Sat Dec 03 21:18:14 CST 2016 1480771094219
-
 Process finished with exit code 1
  */

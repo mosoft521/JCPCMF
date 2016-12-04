@@ -9,7 +9,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test3 {
-
     public static void main(String[] args) {
         try {
             ExecutorService executor = new ThreadPoolExecutor(50,
@@ -52,6 +51,5 @@ Caused by: java.lang.NumberFormatException: For input string: "a"
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 能捕获异常
-
 Process finished with exit code 1
  */

@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch06CompletionService.p100ExecutorCompletionService_4.entity;
 
 public class Userinfo {
-
     private String username;
     private String password;
 
@@ -30,5 +29,4 @@ public class Userinfo {
     public void setPassword(String password) {
         this.password = password;
     }
-
 }

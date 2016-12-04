@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test4 {
-
     public static void main(String[] args) {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(50,
                 Integer.MAX_VALUE, 5, TimeUnit.SECONDS,
@@ -46,6 +45,5 @@ java.lang.NumberFormatException: For input string: "a"
 	at java.lang.Thread.run(Thread.java:745)
 execute()方法通过使用自定义
 ThreadFactory也能捕获异常了
-
 Process finished with exit code 1
  */

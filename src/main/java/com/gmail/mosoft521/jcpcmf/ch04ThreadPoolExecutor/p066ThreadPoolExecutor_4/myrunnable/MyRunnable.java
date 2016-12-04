@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p066ThreadPoolExecutor_4.myrunnable;
 
 public class MyRunnable implements Runnable {
-
     @Override
     public void run() {
         try {

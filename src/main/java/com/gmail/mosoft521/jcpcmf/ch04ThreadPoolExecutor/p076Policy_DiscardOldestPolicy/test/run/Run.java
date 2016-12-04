@@ -6,9 +6,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
-
         ArrayBlockingQueue queue = new ArrayBlockingQueue(2);
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 3, 5,
                 TimeUnit.SECONDS, queue,
@@ -31,7 +29,6 @@ public class Run {
             System.out.println(((MyRunnable) object).getUsername());
         }
     }
-
 }
 /*
 Runnable1 run
@@ -43,6 +40,5 @@ Runnable6
 Runnable7
 Runnable6 run
 Runnable7 run
-
 Process finished with exit code 1
  */

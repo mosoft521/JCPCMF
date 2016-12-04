@@ -12,14 +12,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             List<Callable<String>> list = new ArrayList();
             list.add(new MyCallableA());
             list.add(new MyCallableB());
-
             ExecutorService executor = Executors.newCachedThreadPool();
             System.out.println("Y=" + System.currentTimeMillis());
             List<Future<String>> listFuture = executor.invokeAll(list);
@@ -61,7 +58,5 @@ Caused by: java.lang.Exception: 出现异常
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-
 Process finished with exit code 1
-
  */

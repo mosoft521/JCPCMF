@@ -6,7 +6,6 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 
 public class Test2 {
-
     public static void main(String[] args) {
         MyRecursiveTask task1 = new MyRecursiveTask();
         ForkJoinPool pool = new ForkJoinPool();
@@ -50,6 +49,5 @@ Caused by: java.lang.NullPointerException
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-
 Process finished with exit code 1
  */

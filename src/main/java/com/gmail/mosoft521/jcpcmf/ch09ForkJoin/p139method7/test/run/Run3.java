@@ -8,12 +8,10 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
 
 public class Run3 {
-
     public static void main(String[] args) throws InterruptedException,
             ExecutionException {
         Userinfo userinfo = new Userinfo();
         MyRunnable runnable = new MyRunnable(userinfo);
-
         ForkJoinPool pool = new ForkJoinPool();
         Future<Userinfo> future = pool.submit(runnable, userinfo);
         System.out.println(future);
@@ -26,6 +24,5 @@ public class Run3 {
 java.util.concurrent.ForkJoinTask$AdaptedRunnable@6d6f6e28
 已经设置完结！
 userinfo username=设置的值
-
 Process finished with exit code 0
  */

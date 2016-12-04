@@ -7,9 +7,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
-
         MyThreadPoolExecutor executor = new MyThreadPoolExecutor(2, 2,
                 Integer.MAX_VALUE, TimeUnit.SECONDS,
                 new LinkedBlockingDeque<Runnable>());
@@ -36,6 +34,5 @@ A1 执行完了
 打印了！      end A3 1480772510507
 A4 执行完了
 A3 执行完了
-
 Process finished with exit code 1
  */

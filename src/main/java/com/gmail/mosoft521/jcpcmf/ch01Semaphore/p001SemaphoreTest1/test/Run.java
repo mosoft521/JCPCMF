@@ -6,7 +6,6 @@ import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p001SemaphoreTest1.extthread.Thr
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p001SemaphoreTest1.service.Service;
 
 public class Run {
-
     public static void main(String[] args) {
         Service service = new Service();
         ThreadA a = new ThreadA(service);

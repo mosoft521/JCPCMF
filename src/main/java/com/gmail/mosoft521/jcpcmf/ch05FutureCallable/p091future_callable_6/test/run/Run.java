@@ -8,7 +8,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Run {
-
     public static void main(String[] args) {
         try {
             MyCallable callable = new MyCallable("1");
@@ -44,6 +43,5 @@ Caused by: java.lang.NumberFormatException: For input string: "a"
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-
 Process finished with exit code 1
  */

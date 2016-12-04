@@ -1,10 +1,8 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p155CopyOnWriteArrayList.test2;
 
 public class Test2 {
-
     public static void main(String[] args) throws InterruptedException {
         MyServiceB service = new MyServiceB();
-
         ThreadB[] aArray = new ThreadB[100];
         for (int i = 0; i < aArray.length; i++) {
             aArray[i] = new ThreadB(service);
@@ -20,6 +18,5 @@ public class Test2 {
 /*
 10000
 可以随机取得值：anyString
-
 Process finished with exit code 0
  */

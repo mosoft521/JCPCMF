@@ -18,7 +18,6 @@ public class Run1 {
                 }
             }
         };
-
         ForkJoinPool pool = new ForkJoinPool();
         pool.execute(runnable);
         System.out.println("A=" + pool.isShutdown());
@@ -39,6 +38,5 @@ A=false
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
 B=true
-
 Process finished with exit code 0
  */

@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch07ExecutorService.p108ExecutorService_invok
 import java.util.concurrent.Callable;
 
 public class CallableB implements Callable<String> {
-
     @Override
     public String call() throws Exception {
         System.out.println(Thread.currentThread().getName() + " begin "

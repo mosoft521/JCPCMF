@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p147method16.mytask.MyRecursiveTa
 import java.util.concurrent.ForkJoinPool;
 
 public class Run2 {
-
     public static void main(String[] args) throws InterruptedException {
         MyRecursiveTask2 task = new MyRecursiveTask2(1, 900000);
         ForkJoinPool pool = new ForkJoinPool();
@@ -324,7 +323,5 @@ public class Run2 {
  getPoolSize()=4 getActiveThreadCount()=1 getQueuedTaskCount()=0 getStealCount()=32 getQueuedSubmissionCount()=0 getRunningThreadCount()=1
  getPoolSize()=4 getActiveThreadCount()=1 getQueuedTaskCount()=0 getStealCount()=32 getQueuedSubmissionCount()=0 getRunningThreadCount()=1
  getPoolSize()=4 getActiveThreadCount()=1 getQueuedTaskCount()=0 getStealCount()=32 getQueuedSubmissionCount()=0 getRunningThreadCount()=1
-
 Process finished with exit code 0
-
  */

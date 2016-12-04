@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10Queue.PriorityQueue.entity;
 
 public class Userinfo {
-
     private int id;
     private String username;
 
@@ -30,5 +29,4 @@ public class Userinfo {
     public void setUsername(String username) {
         this.username = username;
     }
-
 }

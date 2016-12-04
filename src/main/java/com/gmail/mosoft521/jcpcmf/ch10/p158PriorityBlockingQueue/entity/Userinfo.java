@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p158PriorityBlockingQueue.entity;
 
 public class Userinfo implements Comparable<Userinfo> {
-
     private int id;
 
     public Userinfo() {
@@ -31,5 +30,4 @@ public class Userinfo implements Comparable<Userinfo> {
         }
         return 0;
     }
-
 }

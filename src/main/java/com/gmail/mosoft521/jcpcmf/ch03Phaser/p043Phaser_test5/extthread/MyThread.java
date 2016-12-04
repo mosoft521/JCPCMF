@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch03Phaser.p043Phaser_test5.extthread;
 import java.util.concurrent.Phaser;
 
 public class MyThread extends Thread {
-
     private Phaser phaser;
 
     public MyThread(Phaser phaser) {
@@ -18,5 +17,4 @@ public class MyThread extends Thread {
         System.out.println(Thread.currentThread().getName() + " A1   end="
                 + System.currentTimeMillis());
     }
-
 }

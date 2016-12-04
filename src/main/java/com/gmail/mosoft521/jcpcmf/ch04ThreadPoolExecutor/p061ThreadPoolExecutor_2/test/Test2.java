@@ -19,6 +19,5 @@ public class Test2 {
 main end!
 begin pool-1-thread-1 1480770257946
   end pool-1-thread-1 1480770261947
-
 Process finished with exit code 1
  */

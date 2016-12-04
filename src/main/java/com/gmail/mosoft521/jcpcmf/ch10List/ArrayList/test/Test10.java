@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10List.ArrayList.test;
 import java.util.ArrayList;
 
 public class Test10 {
-
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
         long beginTime = System.currentTimeMillis();
@@ -16,6 +15,5 @@ public class Test10 {
 }
 /*
 3809
-
 Process finished with exit code 0
  */

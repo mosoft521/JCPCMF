@@ -5,9 +5,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Run {
-
     public static void main(String[] args) throws InterruptedException {
-
         Runnable runnable = new Runnable() {
             public void run() {
                 try {
@@ -19,7 +17,6 @@ public class Run {
                 }
             }
         };
-
         ArrayBlockingQueue queue = new ArrayBlockingQueue(2);
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 3, 5,
                 TimeUnit.SECONDS, queue, new ThreadPoolExecutor.DiscardPolicy());
@@ -41,6 +38,5 @@ pool-1-thread-1 run end!
 pool-1-thread-2 run end!
 pool-1-thread-1 run end!
 pool-1-thread-3 run end!
-
 Process finished with exit code 1
  */

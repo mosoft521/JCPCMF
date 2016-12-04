@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p075Policy_CallerRunsPolicy_1.extthread;
 
 public class MyThreadA extends Thread {
-
     @Override
     public void run() {
         try {
@@ -12,5 +11,4 @@ public class MyThreadA extends Thread {
             e.printStackTrace();
         }
     }
-
 }

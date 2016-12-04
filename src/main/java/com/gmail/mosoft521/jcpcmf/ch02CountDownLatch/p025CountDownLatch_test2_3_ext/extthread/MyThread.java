@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch02CountDownLatch.p025CountDownLatch_test2_3
 import java.util.concurrent.CountDownLatch;
 
 public class MyThread extends Thread {
-
     private CountDownLatch comingTag;// 裁判等待所有运动员到来
     private CountDownLatch waitTag;// 等待裁判说准备开始
     private CountDownLatch waitRunTag;// 等待起跑

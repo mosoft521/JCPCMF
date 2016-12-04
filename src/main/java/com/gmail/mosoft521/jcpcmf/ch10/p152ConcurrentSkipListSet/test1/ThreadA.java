@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p152ConcurrentSkipListSet.test1;
 
 public class ThreadA extends Thread {
-
     private MyService1 service;
 
     public ThreadA(MyService1 service) {
@@ -21,5 +20,4 @@ public class ThreadA extends Thread {
             e.printStackTrace();
         }
     }
-
 }

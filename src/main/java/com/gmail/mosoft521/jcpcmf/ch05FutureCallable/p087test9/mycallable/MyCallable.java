@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch05FutureCallable.p087test9.mycallable;
 import java.util.concurrent.Callable;
 
 public class MyCallable implements Callable<String> {
-
     @Override
     public String call() throws Exception {
         int i = 0;

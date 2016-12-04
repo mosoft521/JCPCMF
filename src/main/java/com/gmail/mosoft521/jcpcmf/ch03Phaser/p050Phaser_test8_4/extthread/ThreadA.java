@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class ThreadA extends Thread {
-
     private Phaser phaser;
 
     public ThreadA(Phaser phaser) {
@@ -29,5 +28,4 @@ public class ThreadA extends Thread {
             System.out.println("TimeoutException e");
         }
     }
-
 }

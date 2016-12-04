@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class LinkedBlockingDequeTest2 {
-
     public static void main(String[] args) throws InterruptedException {
         // LinkedBlockingDeque使用带参构造
         // max值被参考
@@ -49,6 +48,5 @@ begin 1480772015138
 begin 1480772015138
   end 1480772016138
   end 1480772016138
-
 Process finished with exit code 1
  */

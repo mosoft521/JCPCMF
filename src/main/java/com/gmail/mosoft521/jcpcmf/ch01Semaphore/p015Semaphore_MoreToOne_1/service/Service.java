@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p015Semaphore_MoreToOne_1.servi
 import java.util.concurrent.Semaphore;
 
 public class Service {
-
     private Semaphore semaphore = new Semaphore(3);
 
     public void sayHello() {

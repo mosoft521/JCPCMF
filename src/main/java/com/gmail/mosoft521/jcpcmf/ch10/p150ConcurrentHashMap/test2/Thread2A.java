@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p150ConcurrentHashMap.test2;
 
 public class Thread2A extends Thread {
-
     private MyService2 service;
 
     public Thread2A(MyService2 service) {
@@ -15,5 +14,4 @@ public class Thread2A extends Thread {
             System.out.println("ThreadA" + (i + 1));
         }
     }
-
 }

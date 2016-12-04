@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p159LinkedBlockingQueue.extthread;
 import com.gmail.mosoft521.jcpcmf.ch10.p159LinkedBlockingQueue.service.MyServiceB;
 
 public class ThreadB extends Thread {
-
     private MyServiceB service;
 
     public ThreadB(MyServiceB service) {
@@ -18,5 +17,4 @@ public class ThreadB extends Thread {
         }
         System.out.println("z");
     }
-
 }

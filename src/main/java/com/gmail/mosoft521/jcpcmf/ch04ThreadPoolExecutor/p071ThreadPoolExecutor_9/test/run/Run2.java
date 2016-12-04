@@ -15,7 +15,6 @@ public class Run2 {
                         + Thread.currentThread().getName());
             }
         };
-
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 2, 5,
                 TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
         System.out.println("线程池中的线程数A：" + executor.getPoolSize());
@@ -27,6 +26,5 @@ public class Run2 {
 线程池中的线程数A：0
 启动核心线程数量为：2
 线程池中的线程数B：2
-
 Process finished with exit code 1
  */

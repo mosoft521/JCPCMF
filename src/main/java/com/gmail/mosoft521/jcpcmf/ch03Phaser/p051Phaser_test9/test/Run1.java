@@ -19,6 +19,5 @@ public class Run1 {
 /*
 A A1 begin=1480756716691
 B A1 begin=1480756716692
-
 Process finished with exit code 1
  */

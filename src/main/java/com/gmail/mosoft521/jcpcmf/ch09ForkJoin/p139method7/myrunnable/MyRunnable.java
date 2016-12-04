@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p139method7.myrunnable;
 import com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p139method7.entity.Userinfo;
 
 public class MyRunnable implements Runnable {
-
     private Userinfo userinfo;
 
     public MyRunnable(Userinfo userinfo) {
@@ -20,5 +19,4 @@ public class MyRunnable implements Runnable {
             e.printStackTrace();
         }
     }
-
 }

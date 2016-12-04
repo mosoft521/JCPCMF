@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class ThreadA extends Thread {
-
     private Exchanger<String> exchanger;
 
     public ThreadA(Exchanger<String> exchanger) {

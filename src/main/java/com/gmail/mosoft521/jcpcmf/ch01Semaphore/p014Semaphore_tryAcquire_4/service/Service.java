@@ -4,7 +4,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class Service {
-
     private Semaphore semaphore = new Semaphore(3);
 
     public void testMethod() {
@@ -19,7 +18,6 @@ public class Service {
             } else {
                 System.out.println("ThreadName=" + Thread.currentThread().getName() + "未成功进入！");
             }
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch02CountDownLatch.p022CountDownLatch_test1.s
 import java.util.concurrent.CountDownLatch;
 
 public class MyService {
-
     private CountDownLatch down = new CountDownLatch(1);
 
     public void testMethod() {

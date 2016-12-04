@@ -24,6 +24,5 @@ begin ForkJoinPool-1-worker-1 1480834176516
   end ForkJoinPool-1-worker-1 1480834180517
 true 1480834180517 全部任务执行完毕！
 1480834180517
-
 Process finished with exit code 0
  */

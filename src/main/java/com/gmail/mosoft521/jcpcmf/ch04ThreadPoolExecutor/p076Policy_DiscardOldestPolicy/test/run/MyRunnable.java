@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p076Policy_DiscardOldestPolicy.test.run;
 
 public class MyRunnable implements Runnable {
-
     private String username;
 
     public MyRunnable(String username) {
@@ -25,5 +24,4 @@ public class MyRunnable implements Runnable {
             e.printStackTrace();
         }
     }
-
 }

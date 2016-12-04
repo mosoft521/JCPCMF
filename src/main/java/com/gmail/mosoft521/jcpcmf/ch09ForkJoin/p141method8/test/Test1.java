@@ -10,6 +10,5 @@ public class Test1 {
 }
 /*
 main end!
-
 Process finished with exit code 0
  */

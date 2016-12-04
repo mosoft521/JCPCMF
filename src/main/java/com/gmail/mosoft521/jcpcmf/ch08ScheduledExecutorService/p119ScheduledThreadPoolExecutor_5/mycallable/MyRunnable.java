@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch08ScheduledExecutorService.p119ScheduledThreadPoolExecutor_5.mycallable;
 
 public class MyRunnable implements Runnable {
-
     @Override
     public void run() {
         try {

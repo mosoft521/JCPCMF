@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch03Phaser.p045Phaser_test6_2.service;
 import java.util.concurrent.Phaser;
 
 public class MyService {
-
     public Phaser phaser;
 
     public MyService(Phaser phaser) {
@@ -20,14 +19,12 @@ public class MyService {
             phaser.arriveAndAwaitAdvance();
             System.out.println(Thread.currentThread().getName() + "   end A1 "
                     + System.currentTimeMillis());
-
             System.out.println(Thread.currentThread().getName() + " begin A2 "
                     + System.currentTimeMillis());
             Thread.sleep(3000);
             phaser.arriveAndAwaitAdvance();
             System.out.println(Thread.currentThread().getName() + "   end A2 "
                     + System.currentTimeMillis());
-
             System.out.println(Thread.currentThread().getName() + " begin A3 "
                     + System.currentTimeMillis());
             Thread.sleep(3000);
@@ -45,18 +42,15 @@ public class MyService {
         phaser.arrive();
         System.out.println(Thread.currentThread().getName() + "   end A1 "
                 + System.currentTimeMillis());
-
         System.out.println(Thread.currentThread().getName() + " begin A2 "
                 + System.currentTimeMillis());
         phaser.arrive();
         System.out.println(Thread.currentThread().getName() + "   end A2 "
                 + System.currentTimeMillis());
-
         System.out.println(Thread.currentThread().getName() + " begin A3 "
                 + System.currentTimeMillis());
         phaser.arrive();
         System.out.println(Thread.currentThread().getName() + "   end A3 "
                 + System.currentTimeMillis());
     }
-
 }

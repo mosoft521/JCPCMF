@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p126test2.action.MyRecursiveActio
 import java.util.concurrent.ForkJoinPool;
 
 public class Test {
-
     public static void main(String[] args) throws InterruptedException {
         ForkJoinPool pool = new ForkJoinPool();
         pool.submit(new MyRecursiveAction(1, 10));

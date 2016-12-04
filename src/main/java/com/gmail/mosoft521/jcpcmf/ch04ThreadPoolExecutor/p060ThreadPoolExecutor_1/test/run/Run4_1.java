@@ -63,7 +63,5 @@ pool-1-thread-1 run!1480769978787
 B:7
 B:7
 B:0
-
 Process finished with exit code 1
-
  */

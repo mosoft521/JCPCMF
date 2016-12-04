@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch03Phaser.p050Phaser_test8_4.extthread.Thread
 import java.util.concurrent.Phaser;
 
 public class Run3 {
-
     public static void main(String[] args) throws InterruptedException {
         Phaser phaser = new Phaser(3);
         ThreadA a = new ThreadA(phaser);

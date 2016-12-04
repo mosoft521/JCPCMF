@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch03Phaser.p044Phaser_test6_1.test;
 import java.util.concurrent.Phaser;
 
 public class Run {
-
     public static void main(String[] args) {
         Phaser phaser = new Phaser(2) {
             protected boolean onAdvance(int phase, int registeredParties) {
@@ -21,7 +20,6 @@ public class Run {
         System.out.println("A1 getPhase=" + phaser.getPhase()
                 + " getRegisteredParties=" + phaser.getRegisteredParties()
                 + " getArrivedParties=" + phaser.getArrivedParties());
-
         System.out.println("A2 getPhase=" + phaser.getPhase()
                 + " getRegisteredParties=" + phaser.getRegisteredParties()
                 + " getArrivedParties=" + phaser.getArrivedParties());
@@ -30,7 +28,6 @@ public class Run {
                 + " getRegisteredParties=" + phaser.getRegisteredParties()
                 + " getArrivedParties=" + phaser.getArrivedParties());
         // //////////////
-
         System.out.println("B1 getPhase=" + phaser.getPhase()
                 + " getRegisteredParties=" + phaser.getRegisteredParties()
                 + " getArrivedParties=" + phaser.getArrivedParties());
@@ -38,7 +35,6 @@ public class Run {
         System.out.println("B1 getPhase=" + phaser.getPhase()
                 + " getRegisteredParties=" + phaser.getRegisteredParties()
                 + " getArrivedParties=" + phaser.getArrivedParties());
-
         System.out.println("B2 getPhase=" + phaser.getPhase()
                 + " getRegisteredParties=" + phaser.getRegisteredParties()
                 + " getArrivedParties=" + phaser.getArrivedParties());

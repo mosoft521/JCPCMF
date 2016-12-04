@@ -5,7 +5,6 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class RepastService {
-
     volatile private Semaphore setSemaphore = new Semaphore(10);// 厨师
     volatile private Semaphore getSemaphore = new Semaphore(20);// 就餐者
     volatile private ReentrantLock lock = new ReentrantLock();

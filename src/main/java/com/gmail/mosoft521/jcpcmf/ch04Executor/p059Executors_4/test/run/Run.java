@@ -20,6 +20,5 @@ pool-1-thread-1 username=2 begin 1480768643890
 pool-1-thread-1 username=2   end 1480768645890
 pool-1-thread-1 username=3 begin 1480768645890
 pool-1-thread-1 username=3   end 1480768647890
-
 Process finished with exit code 1
  */

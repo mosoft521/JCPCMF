@@ -13,7 +13,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test2 {
-
     public static void main(String[] args) {
         try {
             MyCallable callable1 = new MyCallable("username1", 5000);
@@ -21,22 +20,18 @@ public class Test2 {
             MyCallable callable3 = new MyCallable("username3", 3000);
             MyCallable callable4 = new MyCallable("username4", 2000);
             MyCallable callable5 = new MyCallable("username5", 1000);
-
             List<Callable> callableList = new ArrayList<Callable>();
             callableList.add(callable1);
             callableList.add(callable2);
             callableList.add(callable3);
             callableList.add(callable4);
             callableList.add(callable5);
-
             ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 5,
                     TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
             CompletionService csRef = new ExecutorCompletionService(executor);
-
             for (int i = 0; i < 5; i++) {
                 csRef.submit(callableList.get(i));
             }
-
             for (int i = 0; i < 6; i++) {
                 System.out.println("等待打印第" + (i + 1) + "个返回值");
                 System.out.println(csRef.take().get());
@@ -48,7 +43,6 @@ public class Test2 {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 }
 /*
@@ -68,6 +62,5 @@ return username2
 等待打印第5个返回值
 return username1
 等待打印第6个返回值
-
 Process finished with exit code 1
  */

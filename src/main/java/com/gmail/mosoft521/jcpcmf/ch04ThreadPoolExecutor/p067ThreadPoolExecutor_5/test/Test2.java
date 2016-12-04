@@ -26,6 +26,5 @@ pool-1-thread-1 1480770852625
 pool-1-thread-1 1480770856626
 true
 main   end ! 1480770856626
-
 Process finished with exit code 0
  */

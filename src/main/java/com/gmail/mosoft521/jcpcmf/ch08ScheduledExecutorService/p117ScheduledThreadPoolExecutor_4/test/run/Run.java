@@ -23,6 +23,5 @@ public class Run {
       begin =1480823239898 ThreadName=pool-1-thread-1
         end =1480823243898 ThreadName=pool-1-thread-1
       begin =1480823243898 ThreadName=pool-1-thread-1
-
 Process finished with exit code 1
  */

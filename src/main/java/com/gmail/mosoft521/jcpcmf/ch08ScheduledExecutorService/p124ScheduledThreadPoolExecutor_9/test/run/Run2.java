@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Run2 {
     public static void main(String[] args) throws InterruptedException {
-
         ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(
                 10);
         Runnable runnable1 = new MyRunnable("A");
@@ -30,8 +29,6 @@ public class Run2 {
 }
 /*
 true
-
 main end!
-
 Process finished with exit code 1
  */

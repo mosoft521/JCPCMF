@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p147method16.mytask.MyRecursiveTa
 import java.util.concurrent.ForkJoinPool;
 
 public class Run1_1 {
-
     public static void main(String[] args) throws InterruptedException {
         MyRecursiveTask1 task1 = new MyRecursiveTask1();
         MyRecursiveTask1 task2 = new MyRecursiveTask1();
@@ -31,6 +30,5 @@ begin=ForkJoinPool-1-worker-1
   end=ForkJoinPool-1-worker-3
   end=ForkJoinPool-1-worker-2
 main end!
-
 Process finished with exit code 0
  */

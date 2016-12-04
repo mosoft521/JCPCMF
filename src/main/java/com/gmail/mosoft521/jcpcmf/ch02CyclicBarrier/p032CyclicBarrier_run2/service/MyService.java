@@ -4,7 +4,6 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 public class MyService {
-
     private CyclicBarrier cbRef;
 
     public MyService(CyclicBarrier cbRef) {
@@ -34,7 +33,6 @@ public class MyService {
                     + cbRef.isBroken());
             e.printStackTrace();
         }
-
     }
 
     public void testA() {

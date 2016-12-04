@@ -5,7 +5,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test3 {
-
     public static void main(String[] args) {
         try {
             Runnable runnable1 = new Runnable() {
@@ -24,7 +23,6 @@ public class Test3 {
                     }
                 }
             };
-
             Runnable runnable2 = new Runnable() {
                 @Override
                 public void run() {
@@ -41,7 +39,6 @@ public class Test3 {
                     }
                 }
             };
-
             ThreadPoolExecutor executor = new ThreadPoolExecutor(1, 1, 5,
                     TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
             executor.submit(runnable1);
@@ -60,6 +57,5 @@ main end!
   endA pool-1-thread-1 1480772640610
 beginB pool-1-thread-1 1480772640610
   endB pool-1-thread-1 1480772645610
-
 Process finished with exit code 1
  */

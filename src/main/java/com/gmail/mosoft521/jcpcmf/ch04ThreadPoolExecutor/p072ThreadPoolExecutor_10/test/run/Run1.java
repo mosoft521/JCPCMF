@@ -19,7 +19,6 @@ public class Run1 {
                 }
             }
         };
-
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 2, 5,
                 TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
         executor.execute(runnable);
@@ -52,6 +51,5 @@ public class Run1 {
 打印了！pool-1-thread-2
 6
 6
-
 Process finished with exit code 1
  */

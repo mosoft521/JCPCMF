@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p001SemaphoreTest1.extthread;
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p001SemaphoreTest1.service.Service;
 
 public class ThreadA extends Thread {
-
     private Service service;
 
     public ThreadA(Service service) {

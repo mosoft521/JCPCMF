@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p133method1.myaction.MyRecursiveA
 import java.util.concurrent.ForkJoinPool;
 
 public class Run {
-
     public static void main(String[] args) {
         try {
             ForkJoinPool pool = new ForkJoinPool();

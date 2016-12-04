@@ -25,6 +25,5 @@ public class Test2 {
 main end!
 任务成功完成！
 任务成功完成！
-
 Process finished with exit code 0
  */

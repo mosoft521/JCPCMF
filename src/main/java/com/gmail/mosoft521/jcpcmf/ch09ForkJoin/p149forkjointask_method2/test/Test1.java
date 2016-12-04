@@ -33,6 +33,5 @@ java.lang.NumberFormatException: For input string: "a"
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
 true false
 java.lang.NumberFormatException
-
 Process finished with exit code 0
  */

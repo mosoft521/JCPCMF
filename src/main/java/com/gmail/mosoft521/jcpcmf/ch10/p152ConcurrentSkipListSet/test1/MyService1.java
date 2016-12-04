@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p152ConcurrentSkipListSet.test1;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public class MyService1 {
-
     public ConcurrentSkipListSet map = new ConcurrentSkipListSet();
 
     public MyService1() {

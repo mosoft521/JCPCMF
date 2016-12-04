@@ -30,7 +30,6 @@ public class Test3 {
                 + " " + System.currentTimeMillis());
         System.out.println("G=" + pool.awaitTermination(1, TimeUnit.SECONDS)
                 + " " + System.currentTimeMillis());
-
     }
 }
 /*
@@ -41,6 +40,5 @@ D=true 1480770875890
 E=true 1480770875890
 F=true 1480770875890
 G=true 1480770875890
-
 Process finished with exit code 0
  */

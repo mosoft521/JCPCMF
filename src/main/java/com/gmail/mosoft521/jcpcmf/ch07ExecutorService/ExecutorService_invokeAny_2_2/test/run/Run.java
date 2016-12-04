@@ -12,16 +12,12 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             ThreadPoolExecutor abc;
-
             List<Callable<String>> list = new ArrayList<>();
             list.add(new MyCallableA());
             list.add(new MyCallableB());
-
             ExecutorService executor = Executors.newCachedThreadPool();
             System.out.println(executor);
             String getValueA = executor.invokeAny(list);
@@ -32,7 +28,6 @@ public class Run {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 }
 /*
@@ -42,6 +37,5 @@ MyCallableA 123456
 MyCallableA   end 1480822332359
 ============returnA
 ZZZZZZZZZZZZZZZZ
-
 Process finished with exit code 1
  */

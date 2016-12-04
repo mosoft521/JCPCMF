@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p007availablePermitsTest.test.r
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p007availablePermitsTest.myservice.MyService;
 
 public class Run {
-
     public static void main(String[] args) {
         MyService service = new MyService();
         service.testMethod();

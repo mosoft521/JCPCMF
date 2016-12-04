@@ -19,6 +19,5 @@ public class Test2 {
 begin ForkJoinPool-1-worker-1 1480833688577
 main end!
   end ForkJoinPool-1-worker-1 1480833690578
-
 Process finished with exit code 1
  */

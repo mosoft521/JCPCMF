@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p005Semaphore_acquireUninterrup
 import java.util.concurrent.Semaphore;
 
 public class Service {
-
     private Semaphore semaphore = new Semaphore(1);
 
     public void testMethod() {
@@ -24,5 +23,4 @@ public class Service {
             e.printStackTrace();
         }
     }
-
 }

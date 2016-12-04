@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch05FutureCallable.p094futureLast.mycallable;
 import java.util.concurrent.Callable;
 
 public class MyCallable implements Callable<String> {
-
     private String username;
     private long sleepValue;
 

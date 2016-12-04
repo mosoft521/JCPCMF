@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p157ArrayBlockingQueue.test;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class take {
-
     public static void main(String[] args) {
         try {
             ArrayBlockingQueue queue = new ArrayBlockingQueue(3);
@@ -13,7 +12,6 @@ public class take {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 }
 /*

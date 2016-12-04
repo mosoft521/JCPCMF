@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p168LinkedTransferQueue_6.test3;
 
 public class ThreadC extends Thread {
-
     private MyServiceC service;
 
     public ThreadC(MyServiceC service) {
@@ -18,5 +17,4 @@ public class ThreadC extends Thread {
             e.printStackTrace();
         }
     }
-
 }

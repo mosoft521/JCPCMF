@@ -4,7 +4,6 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 public class Test4 {
-
     public static void main(String[] args) {
         Vector vector = new Vector();
         vector.add("1");
@@ -12,14 +11,11 @@ public class Test4 {
         vector.add("3");
         vector.add("4");
         vector.add("5");
-
         Enumeration enum1 = vector.elements();
         while (enum1.hasMoreElements()) {
             System.out.println(enum1.nextElement());
         }
-
     }
-
 }
 /*
 1
@@ -27,6 +23,5 @@ public class Test4 {
 3
 4
 5
-
 Process finished with exit code 0
  */

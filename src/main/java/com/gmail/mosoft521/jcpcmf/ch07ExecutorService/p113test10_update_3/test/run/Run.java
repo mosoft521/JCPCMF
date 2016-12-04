@@ -13,17 +13,13 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             MyCallableA a = new MyCallableA();
             MyCallableB b = new MyCallableB();
-
             List<Callable<String>> callableList = new ArrayList<Callable<String>>();
             callableList.add(a);
             callableList.add(b);
-
             ExecutorService service = Executors.newCachedThreadPool();
             System.out.println("X " + System.currentTimeMillis());
             List<Future<String>> listFuture = service.invokeAll(callableList,
@@ -49,6 +45,5 @@ MyCallableA i=223454
 MyCallableA i=223455
 MyCallableA i=223456
 MyCallableA   end 1480822138373
-
 Process finished with exit code 1
  */

@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p078ThreadPoolExecutor_after_before.myrunnable;
 
 public class MyRunnable implements Runnable {
-
     private String username;
 
     public MyRunnable(String username) {
@@ -29,5 +28,4 @@ public class MyRunnable implements Runnable {
             e.printStackTrace();
         }
     }
-
 }

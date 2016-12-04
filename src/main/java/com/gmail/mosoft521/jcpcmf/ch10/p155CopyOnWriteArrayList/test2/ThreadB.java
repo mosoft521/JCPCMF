@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p155CopyOnWriteArrayList.test2;
 
 public class ThreadB extends Thread {
-
     private MyServiceB service;
 
     public ThreadB(MyServiceB service) {

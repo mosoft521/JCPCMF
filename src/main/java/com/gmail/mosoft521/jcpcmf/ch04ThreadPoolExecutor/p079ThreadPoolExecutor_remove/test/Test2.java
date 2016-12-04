@@ -5,7 +5,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test2 {
-
     public static void main(String[] args) throws InterruptedException {
         Runnable runnable1 = new Runnable() {
             @Override
@@ -21,7 +20,6 @@ public class Test2 {
                 }
             }
         };
-
         Runnable runnable2 = new Runnable() {
             @Override
             public void run() {
@@ -36,7 +34,6 @@ public class Test2 {
                 }
             }
         };
-
         ThreadPoolExecutor executor = new ThreadPoolExecutor(1, 1, 100,
                 TimeUnit.SECONDS, new LinkedBlockingDeque());
         executor.execute(runnable1);
@@ -50,6 +47,5 @@ public class Test2 {
 pool-1-thread-1 begin
 任务2未在运行可以删除
 pool-1-thread-1   end
-
 Process finished with exit code 1
  */

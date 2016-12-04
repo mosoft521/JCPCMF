@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test {
-
     public static void main(String[] args) {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 10,
                 TimeUnit.SECONDS, new LinkedBlockingDeque());
@@ -68,7 +67,5 @@ username49
 username50
 username17
 username15
-
 Process finished with exit code 1
-
  */

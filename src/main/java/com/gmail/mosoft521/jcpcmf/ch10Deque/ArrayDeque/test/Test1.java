@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.LinkedList;
 
 public class Test1 {
-
     public static void main(String[] args) {
         ArrayDeque deque = new ArrayDeque();
         // 无deque.get(index);方法
@@ -16,6 +15,5 @@ public class Test1 {
     }
 }
 /*
-
 Process finished with exit code 0
  */

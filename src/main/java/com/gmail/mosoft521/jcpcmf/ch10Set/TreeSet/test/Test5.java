@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Test5 {
-
     public static void main(String[] args) {
         TreeSet set = new TreeSet();
         set.add(10);
@@ -16,7 +15,6 @@ public class Test5 {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-
     }
 }
 /*
@@ -24,6 +22,5 @@ public class Test5 {
 2
 9
 10
-
 Process finished with exit code 0
  */

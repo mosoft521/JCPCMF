@@ -4,7 +4,6 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 public class ThreadA extends Thread {
-
     private CyclicBarrier cbRef;
 
     public ThreadA(CyclicBarrier cbRef) {

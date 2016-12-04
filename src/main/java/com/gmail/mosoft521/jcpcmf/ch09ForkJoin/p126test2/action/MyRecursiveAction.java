@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p126test2.action;
 import java.util.concurrent.RecursiveAction;
 
 public class MyRecursiveAction extends RecursiveAction {
-
     private int beginValue;
     private int endValue;
 

@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p017Semaphore_Pool_List.extthre
 import com.gmail.mosoft521.jcpcmf.ch01Semaphore.p017Semaphore_Pool_List.tools.ListPool;
 
 public class MyThread extends Thread {
-
     private ListPool listPool;
 
     public MyThread(ListPool listPool) {

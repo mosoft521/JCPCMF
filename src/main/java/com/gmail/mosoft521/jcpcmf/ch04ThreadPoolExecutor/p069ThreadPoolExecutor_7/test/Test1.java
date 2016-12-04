@@ -37,6 +37,5 @@ Exception in thread "main" java.util.concurrent.RejectedExecutionException: Task
 pool-1-thread-1 1480771244081
 pool-1-thread-3 1480771244081
 pool-1-thread-2 1480771244081
-
 Process finished with exit code 1
  */

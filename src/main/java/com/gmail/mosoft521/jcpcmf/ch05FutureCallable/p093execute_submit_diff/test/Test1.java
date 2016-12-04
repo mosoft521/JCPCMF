@@ -9,7 +9,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test1 {
-
     public static void main(String[] args) {
         try {
             ExecutorService executor = new ThreadPoolExecutor(50,
@@ -40,6 +39,5 @@ public class Test1 {
 execute()方法执行了，没有返回值
 submit()方法执行了，有返回值
 我是返回值
-
 Process finished with exit code 1
  */

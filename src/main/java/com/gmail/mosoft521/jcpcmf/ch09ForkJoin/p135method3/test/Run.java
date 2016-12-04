@@ -6,7 +6,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 
 public class Run {
-
     public static void main(String[] args) {
         try {
             MyRecursiveTask task = new MyRecursiveTask();

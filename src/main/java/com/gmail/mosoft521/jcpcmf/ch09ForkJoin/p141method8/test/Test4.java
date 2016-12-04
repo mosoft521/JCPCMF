@@ -5,7 +5,6 @@ import com.gmail.mosoft521.jcpcmf.ch09ForkJoin.p141method8.myrunnable.MyRunnable
 import java.util.concurrent.ForkJoinPool;
 
 public class Test4 {
-
     public static void main(String[] args) {
         try {
             MyRunnable1 myRunnable = new MyRunnable1();
@@ -27,6 +26,5 @@ public class Test4 {
 begin ForkJoinPool-1-worker-1 1480833734102
 main end!
   end ForkJoinPool-1-worker-1 1480833736103
-
 Process finished with exit code 1
  */

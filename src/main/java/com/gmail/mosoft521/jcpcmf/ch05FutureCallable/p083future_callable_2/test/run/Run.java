@@ -6,7 +6,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Run {
-
     public static void main(String[] args) {
         try {
             Runnable runnable = new Runnable() {
@@ -28,6 +27,5 @@ public class Run {
 /*
 打印的信息
 null true
-
 Process finished with exit code 1
  */

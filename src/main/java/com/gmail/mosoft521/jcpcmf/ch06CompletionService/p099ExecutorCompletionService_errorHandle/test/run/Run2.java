@@ -11,22 +11,18 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 
 public class Run2 {
-
     public static void main(String[] args) {
         try {
             MyCallableA callableA = new MyCallableA();
             MyCallableB callableB = new MyCallableB();
-
             Executor executor = Executors.newSingleThreadExecutor();
             CompletionService csRef = new ExecutorCompletionService(executor);
             csRef.submit(callableA);// 先执行的A
             csRef.submit(callableB);// 后执行的B
-
             for (int i = 0; i < 2; i++) {
                 System.out.println("zzzzzzzzzzzz" + " " + csRef.take().get());
             }
             System.out.println("main end!");
-
             FutureTask abc;
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -58,6 +54,5 @@ Caused by: java.lang.Exception: 抛出异常！
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-
 Process finished with exit code 1
  */

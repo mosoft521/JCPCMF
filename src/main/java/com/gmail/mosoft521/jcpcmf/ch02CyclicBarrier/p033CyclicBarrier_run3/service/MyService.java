@@ -6,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class MyService {
-
     public CyclicBarrier cyclicBarrier = new CyclicBarrier(3, new Runnable() {
         @Override
         public void run() {
@@ -44,5 +43,4 @@ public class MyService {
             e.printStackTrace();
         }
     }
-
 }

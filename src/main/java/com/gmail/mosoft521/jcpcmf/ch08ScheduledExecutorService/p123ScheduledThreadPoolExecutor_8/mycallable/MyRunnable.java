@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch08ScheduledExecutorService.p123ScheduledThreadPoolExecutor_8.mycallable;
 
 public class MyRunnable implements Runnable {
-
     private String username;
 
     public MyRunnable(String username) {
@@ -23,5 +22,4 @@ public class MyRunnable implements Runnable {
                 + Thread.currentThread().getName() + " "
                 + System.currentTimeMillis());
     }
-
 }

@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch03Phaser.p051Phaser_test9.extthread;
 import java.util.concurrent.Phaser;
 
 public class ThreadB extends Thread {
-
     private Phaser phaser;
 
     public ThreadB(Phaser phaser) {

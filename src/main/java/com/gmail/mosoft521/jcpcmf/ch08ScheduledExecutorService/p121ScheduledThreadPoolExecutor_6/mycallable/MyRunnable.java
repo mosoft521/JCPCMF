@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch08ScheduledExecutorService.p121ScheduledThreadPoolExecutor_6.mycallable;
 
 public class MyRunnable implements Runnable {
-
     private String username;
 
     public MyRunnable(String username) {

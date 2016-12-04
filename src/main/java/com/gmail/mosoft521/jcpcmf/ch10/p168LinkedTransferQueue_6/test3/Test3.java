@@ -1,10 +1,8 @@
 package com.gmail.mosoft521.jcpcmf.ch10.p168LinkedTransferQueue_6.test3;
 
 public class Test3 {
-
     public static void main(String[] args) throws InterruptedException {
         MyServiceC service = new MyServiceC();
-
         for (int i = 0; i < 10; i++) {
             ThreadC a = new ThreadC(service);
             a.setName("a");

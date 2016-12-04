@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch10.p160LinkedBlockingDeque.test;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class putFirst_2 {
-
     public static void main(String[] args) {
         try {
             LinkedBlockingDeque deque = new LinkedBlockingDeque(2);
@@ -18,7 +17,6 @@ public class putFirst_2 {
             e.printStackTrace();
         }
     }
-
 }
 /*
 A1

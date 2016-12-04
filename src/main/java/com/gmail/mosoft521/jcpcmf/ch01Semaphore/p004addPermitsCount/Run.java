@@ -3,7 +3,6 @@ package com.gmail.mosoft521.jcpcmf.ch01Semaphore.p004addPermitsCount;
 import java.util.concurrent.Semaphore;
 
 public class Run {
-
     public static void main(String[] args) {
         try {
             Semaphore semaphore = new Semaphore(5);

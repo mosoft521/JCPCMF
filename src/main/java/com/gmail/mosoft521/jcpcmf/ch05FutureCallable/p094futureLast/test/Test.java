@@ -12,7 +12,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class Test {
-
     public static void main(String[] args) {
         try {
             MyCallable callable1 = new MyCallable("username1", 5000);
@@ -20,16 +19,13 @@ public class Test {
             MyCallable callable3 = new MyCallable("username3", 3000);
             MyCallable callable4 = new MyCallable("username4", 2000);
             MyCallable callable5 = new MyCallable("username5", 1000);
-
             List<Callable> callableList = new ArrayList<Callable>();
             callableList.add(callable1);
             callableList.add(callable2);
             callableList.add(callable3);
             callableList.add(callable4);
             callableList.add(callable5);
-
             List<Future> futureList = new ArrayList<Future>();
-
             ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 5,
                     TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>());
             for (int i = 0; i < 5; i++) {
@@ -48,7 +44,6 @@ public class Test {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 }
 /*
@@ -63,6 +58,5 @@ return username2 1480817568073
 return username3 1480817568073
 return username4 1480817568073
 return username5 1480817568073
-
 Process finished with exit code 1
  */

@@ -9,7 +9,6 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
 
 public class Test {
-
     public static void main(String[] args) {
         try {
             List list = new ArrayList();
@@ -18,7 +17,6 @@ public class Test {
             list.add(new MyCallable(3000));
             list.add(new MyCallable(2000));
             list.add(new MyCallable(1000));
-
             ForkJoinPool pool = new ForkJoinPool();
             List<Future<String>> listFuture = pool.invokeAll(list);
             for (int i = 0; i < listFuture.size(); i++) {
@@ -43,6 +41,5 @@ ForkJoinPool-1-worker-0 sleep1000 nowTime：1480833596358
 我是返回值 nowTime：1480833599358
 我是返回值 nowTime：1480833599358
 我是返回值 nowTime：1480833599358
-
 Process finished with exit code 0
  */

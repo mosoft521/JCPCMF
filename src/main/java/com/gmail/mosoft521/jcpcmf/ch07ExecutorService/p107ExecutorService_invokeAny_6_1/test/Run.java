@@ -12,13 +12,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class Run {
-
     public static void main(String[] args) {
-
         try {
             List<Callable<String>> list = new ArrayList();
             list.add(new MyCallableA());
-
             ExecutorService service = Executors.newCachedThreadPool();
             String getString = service.invokeAny(list, 1, TimeUnit.SECONDS);
             System.out.println("zzzz=" + getString);
@@ -59,6 +56,5 @@ java.util.concurrent.TimeoutException
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
 null 通过显式try-catch捕获异常了
 mainC
-
 Process finished with exit code 1
  */

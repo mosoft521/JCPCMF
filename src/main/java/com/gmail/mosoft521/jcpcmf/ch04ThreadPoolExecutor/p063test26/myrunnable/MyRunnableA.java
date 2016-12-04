@@ -1,7 +1,6 @@
 package com.gmail.mosoft521.jcpcmf.ch04ThreadPoolExecutor.p063test26.myrunnable;
 
 public class MyRunnableA implements Runnable {
-
     private String username;
 
     public MyRunnableA(String username) {

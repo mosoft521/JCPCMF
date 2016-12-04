@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class removeFirstOccurrence_1 {
-
     public static void main(String[] args) {
         LinkedBlockingDeque deque = new LinkedBlockingDeque(10);
         deque.addLast("a");
@@ -26,7 +25,6 @@ public class removeFirstOccurrence_1 {
             System.out.println(iterator.next());
         }
     }
-
 }
 /*
 a
@@ -36,15 +34,12 @@ a
 d
 e
 d
-
 true
-
 b
 c
 a
 d
 e
 d
-
 Process finished with exit code 0
  */

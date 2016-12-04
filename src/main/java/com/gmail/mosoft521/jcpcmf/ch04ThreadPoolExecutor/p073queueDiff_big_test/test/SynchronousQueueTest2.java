@@ -7,7 +7,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class SynchronousQueueTest2 {
-
     public static void main(String[] args) throws InterruptedException {
         SynchronousQueue linked = new SynchronousQueue<Runnable>();
         System.out.println(linked.size());
@@ -40,6 +39,5 @@ begin 1480772080676
   end 1480772081675
   end 1480772081676
   end 1480772081676
-
 Process finished with exit code 1
  */

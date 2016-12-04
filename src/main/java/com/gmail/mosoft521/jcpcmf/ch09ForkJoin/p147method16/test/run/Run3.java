@@ -6,7 +6,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 
 public class Run3 {
-
     public static void main(String[] args) throws InterruptedException,
             ExecutionException {
         MyRecursiveTask3 task = new MyRecursiveTask3(1, 900000);
@@ -1307,7 +1306,5 @@ public class Run3 {
  getActiveThreadCount()=0 getQueuedTaskCount()=0 getStealCount()=7 getQueuedSubmissionCount()=0 getRunningThreadCount()=0
  getActiveThreadCount()=0 getQueuedTaskCount()=0 getStealCount()=7 getQueuedSubmissionCount()=0 getRunningThreadCount()=0
 1273524176
-
 Process finished with exit code 0
-
  */
