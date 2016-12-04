@@ -1,37 +1,37 @@
 package com.gmail.mosoft521.jcpcmf.ch06CompletionService.p099ExecutorCompletionService_errorHandle.test.run;
 
+import com.gmail.mosoft521.jcpcmf.ch06CompletionService.p099ExecutorCompletionService_errorHandle.mycallable.MyCallableA;
+import com.gmail.mosoft521.jcpcmf.ch06CompletionService.p099ExecutorCompletionService_errorHandle.mycallable.MyCallableB;
+
 import java.util.concurrent.CompletionService;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Executors;
 
-import com.gmail.mosoft521.jcpcmf.ch06CompletionService.p099ExecutorCompletionService_errorHandle.mycallable.MyCallableA;
-import com.gmail.mosoft521.jcpcmf.ch06CompletionService.p099ExecutorCompletionService_errorHandle.mycallable.MyCallableB;
-
 public class Run3 {
 
-	public static void main(String[] args) {
-		try {
-			MyCallableA callableA = new MyCallableA();
-			MyCallableB callableB = new MyCallableB();
+    public static void main(String[] args) {
+        try {
+            MyCallableA callableA = new MyCallableA();
+            MyCallableB callableB = new MyCallableB();
 
-			Executor executor = Executors.newSingleThreadExecutor();
-			CompletionService csRef = new ExecutorCompletionService(executor);
-			csRef.submit(callableB);// 先执行B
-			csRef.submit(callableA);// 后执行A
+            Executor executor = Executors.newSingleThreadExecutor();
+            CompletionService csRef = new ExecutorCompletionService(executor);
+            csRef.submit(callableB);// 先执行B
+            csRef.submit(callableA);// 后执行A
 
 
-			for (int i = 0; i < 2; i++) {
-				System.out.println("zzzzzzzzzzzz" + " " + csRef.take().get());
-			}
-			System.out.println("main end!");
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		} catch (ExecutionException e) {
-			e.printStackTrace();
-		}
-	}
+            for (int i = 0; i < 2; i++) {
+                System.out.println("zzzzzzzzzzzz" + " " + csRef.take().get());
+            }
+            System.out.println("main end!");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+    }
 }
 /*
 MyCallableB begin 1480818865092
