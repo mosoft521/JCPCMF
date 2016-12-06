@@ -1,7 +1,7 @@
-package com.gmail.mosoft521.jcpcmf.ch07ExecutorService.test4.test;
+package com.gmail.mosoft521.jcpcmf.ch07ExecutorService.p102test4.test;
 
-import com.gmail.mosoft521.jcpcmf.ch07ExecutorService.test4.mycallable.MyCallableA;
-import com.gmail.mosoft521.jcpcmf.ch07ExecutorService.test4.mycallable.MyCallableB;
+import com.gmail.mosoft521.jcpcmf.ch07ExecutorService.p102test4.mycallable.MyCallableA;
+import com.gmail.mosoft521.jcpcmf.ch07ExecutorService.p102test4.mycallable.MyCallableB;
 
 import java.util.ArrayList;
 import java.util.List;
