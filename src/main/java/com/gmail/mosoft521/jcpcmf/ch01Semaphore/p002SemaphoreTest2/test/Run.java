@@ -26,4 +26,11 @@ A   end timer=1480654553262
 B   end timer=1480654553262
 C begin timer=1480654553262
 C   end timer=1480654558262
+-----------------------------
+A begin timer=1503449694251
+C begin timer=1503449694252
+C   end timer=1503449699252
+A   end timer=1503449699252
+B begin timer=1503449699252
+B   end timer=1503449704252
  */
